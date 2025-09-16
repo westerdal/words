@@ -61,9 +61,30 @@ deactivate
 ## Project Structure
 ```
 words/
+├── data/
+│   └── enable1.txt     # ENABLE word list (172,823 words)
 ├── main.py              # Main application script
 ├── requirements.txt     # Python dependencies
 ├── README.md           # This file
 ├── .gitignore          # Git ignore rules
 └── venv/               # Virtual environment (created after setup)
+```
+
+## Word List
+
+This project includes the **ENABLE word list** (Enhanced North American Benchmark Lexicon), which contains 172,823 English words commonly used in word games and applications. The word list is stored in `data/enable1.txt` and is in the public domain.
+
+### Using the Word List
+
+The `main.py` script includes a `load_word_list()` function that reads and processes the word list:
+
+```python
+from main import load_word_list
+
+# Load all words
+words = load_word_list()
+print(f"Loaded {len(words)} words")
+
+# Find words of specific length
+five_letter_words = [word for word in words if len(word) == 5]
 ```
