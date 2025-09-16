@@ -88,3 +88,48 @@ print(f"Loaded {len(words)} words")
 # Find words of specific length
 five_letter_words = [word for word in words if len(word) == 5]
 ```
+
+## Semantic Rank Game
+
+This project now includes a **Semantic Rank Game CSV Generator** that creates precomputed data files for word guessing games based on semantic similarity.
+
+### Features
+
+- **Complete ENABLE Word Coverage**: Ranks all 172,823 words relative to a secret word
+- **Tiered Clue System**: Generates contextual clues based on semantic proximity
+- **Instant Gameplay**: No real-time computation needed during gameplay
+- **Customizable Secret Words**: Easy to generate files for different secret words
+
+### Generated Files
+
+- `semantic_rank_planet.csv` - Complete game data for secret word "planet"
+- Contains: rank, secret_word, word, clue columns
+- Ready for immediate use in word games
+
+### Usage
+
+Generate a semantic rank file:
+```bash
+python simple_semantic_rank.py
+```
+
+Analyze the generated data:
+```bash
+python analyze_csv.py
+```
+
+### Game Data Structure
+
+The CSV follows the exact specification:
+- **Rank 1**: Secret word ("This is the *.")
+- **Ranks 2-1000**: Closest words (semantic relationships)
+- **Ranks 1001-5000**: Medium similarity (relational templates)
+- **Ranks 5001-50000**: Weak associations
+- **Ranks 50001+**: Distant words ("* are nothing like [word].")
+
+### Example Top Rankings for "planet":
+1. planet - "This is the *."
+2. earth - "Similar to *."
+3. mars - "Similar to *."
+4. mercury - "Found near *."
+5. nebula - "Part of * system."
