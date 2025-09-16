@@ -91,45 +91,70 @@ five_letter_words = [word for word in words if len(word) == 5]
 
 ## Semantic Rank Game
 
-This project now includes a **Semantic Rank Game CSV Generator** that creates precomputed data files for word guessing games based on semantic similarity.
+This project includes a **Semantic Rank Game CSV Generator** that creates precomputed data files for word guessing games based on semantic similarity.
 
 ### Features
 
 - **Complete ENABLE Word Coverage**: Ranks all 172,823 words relative to a secret word
-- **Tiered Clue System**: Generates contextual clues based on semantic proximity
+- **AI-Powered Clue Generation**: Uses OpenAI GPT to write unique clues for each word
+- **Intelligent Fallback**: Pattern-based clues when AI is unavailable
 - **Instant Gameplay**: No real-time computation needed during gameplay
 - **Customizable Secret Words**: Easy to generate files for different secret words
 
-### Generated Files
+### AI vs Pattern-Based Clues
 
-- `semantic_rank_planet.csv` - Complete game data for secret word "planet"
-- Contains: rank, secret_word, word, clue columns
-- Ready for immediate use in word games
+**With AI (requires OpenAI API key):**
+- **earth** → "Rocky neighbor of *"
+- **telescope** → "Tool to observe *"
+- **book** → "Unlike * in space"
+
+**Without AI (fallback patterns):**
+- **earth** → "Similar to *"
+- **telescope** → "Related to *"
+- **book** → "Like *"
 
 ### Usage
 
-Generate a semantic rank file:
+**Generate with AI clues (recommended):**
+```bash
+# Set your OpenAI API key first
+export OPENAI_API_KEY="sk-your-key-here"
+python ai_semantic_rank.py
+```
+
+**Generate with pattern-based clues:**
 ```bash
 python simple_semantic_rank.py
 ```
 
-Analyze the generated data:
+**Compare clue types:**
+```bash
+python demo_ai_clues.py
+```
+
+**Analyze generated data:**
 ```bash
 python analyze_csv.py
 ```
+
+### Setup AI Clue Generation
+
+See `setup_ai_instructions.md` for detailed instructions on:
+- Getting an OpenAI API key
+- Setting environment variables
+- Cost considerations (~$3-7 for full generation)
 
 ### Game Data Structure
 
 The CSV follows the exact specification:
 - **Rank 1**: Secret word ("This is the *.")
-- **Ranks 2-1000**: Closest words (semantic relationships)
-- **Ranks 1001-5000**: Medium similarity (relational templates)
+- **Ranks 2-1000**: Closest words (AI-generated or semantic relationships)
+- **Ranks 1001-5000**: Medium similarity (contextual clues)
 - **Ranks 5001-50000**: Weak associations
 - **Ranks 50001+**: Distant words ("* are nothing like [word].")
 
-### Example Top Rankings for "planet":
-1. planet - "This is the *."
-2. earth - "Similar to *."
-3. mars - "Similar to *."
-4. mercury - "Found near *."
-5. nebula - "Part of * system."
+### Generated Files
+
+- `ai_semantic_rank_planet.csv` - AI-powered clues (if API key available)
+- `semantic_rank_planet.csv` - Pattern-based clues
+- Both contain: rank, secret_word, word, clue columns
