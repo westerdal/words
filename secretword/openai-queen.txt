@@ -1,0 +1,33 @@
+# OpenAI Similar Words for 'queen'
+# Generated: C:\space\words\logs
+# Total words: 29
+
+1. monarch
+2. empress
+3. ruler
+4. sovereign
+5. regent
+6. princess
+7. lady
+8. royalty
+9. crown
+10. throne
+11. majesty
+12. highness
+13. queenly
+14. crowned
+15. reign
+16. kingdom
+17. palace
+18. royal
+19. heir
+20. consort
+21. noble
+22. aristocrat
+23. court
+24. dynasty
+25. regal
+26. tiara
+27. scepter
+28. coronation
+29. monarchy

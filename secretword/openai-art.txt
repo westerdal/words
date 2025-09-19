@@ -1,0 +1,29 @@
+# OpenAI Similar Words for 'art'
+# Generated: C:\space\words\logs
+# Total words: 25
+
+1. painting
+2. sculpture
+3. drawing
+4. design
+5. creativity
+6. craft
+7. expression
+8. aesthetics
+9. imagination
+10. composition
+11. artistry
+12. artwork
+13. artistic
+14. beauty
+15. culture
+16. talent
+17. skill
+18. innovation
+19. inspiration
+20. masterpiece
+21. performance
+22. exhibition
+23. gallery
+24. museum
+25. artisan

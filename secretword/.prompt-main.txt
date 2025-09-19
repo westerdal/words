@@ -1,0 +1,173 @@
+## **Prompt: Generate Secretword CSV for "forest" Using Modular System**
+
+You are working with a modular Semantic Rank word processing system. Your task is to create a CSV processing script and generate the complete secretword CSV for "forest".
+
+### **Current System Status:**
+- ✅ **Embeddings Complete**: `secretword/embeddings-forest.txt` exists (114,102 ranked words)
+- ✅ **Modular Structure**: `scripts/` directory with subdirectories created
+- ✅ **Configuration**: `scripts/utilities/config.py` with all settings
+- ✅ **Progress Tracking**: `scripts/utilities/progress_tracker.py` with real-time updates
+
+### **Required Task:**
+Create `scripts/processing/generate_csv.py` that processes the forest embeddings and generates the complete CSV with AI clues, dynamic cutoff, and weak connection queuing.
+
+### **Command Line Interface:**
+The script MUST accept the secret word as a command line argument:
+```bash
+python scripts/processing/generate_csv.py forest
+```
+
+**Required argument handling:**
+- Accept exactly one argument (the secret word)
+- Validate the word using `Config.validate_word()`
+- Show usage message if incorrect arguments provided
+- Exit with appropriate error codes
+
+### **Key Requirements:**
+
+1. **Use Existing Modular Components:**
+   - Import from `scripts/utilities/config.py` (Config class)
+   - Import from `scripts/utilities/progress_tracker.py` (ProgressTracker)
+   - Follow the established patterns and file paths
+
+2. **CSV Processing Features:**
+   - Load `secretword/embeddings-{word}.txt` (already ranked by similarity)
+   - Generate AI clues using OpenAI API with 7-word relationship prompts
+   - Implement dynamic cutoff (stop after 5 consecutive "weak" relationships)
+   - Implement weak connection queuing system
+   - Save progress every 200 words
+   - Real-time status updates every 30 seconds
+
+3. **AI Clue Generation:**
+   - Prompt: "For each word below, describe the SPECIFIC relationship between the word and '{secret_word}' in 7 words or less. Focus on HOW they connect, not what the word is. Don't mention '{secret_word}' directly - use 'that place/area/environment' instead."
+   - Batch size: 50 words per API call
+   - Fallback clue: "ERROR" if AI fails
+   - Connection strength assessment: "strong", "medium", "weak"
+
+4. **Dynamic Cutoff Logic:**
+   - Track consecutive weak connections
+   - Stop AI calls after 5 consecutive "weak" responses
+   - Continue with NULL clues for remaining words
+   - Hard cutoff at rank 10,000 regardless
+   - **CRITICAL**: Even after AI cutoff, ALL remaining words must be included in the final CSV with NULL clues
+
+5. **Weak Connection Queue:**
+   - Remove "weak" connections from original positions
+   - Store in `secretword/secretword-easy-animals-{word}_weak_queue.json`
+   - Reinsert at rank 10,000+ with clue "weak connection"
+   - Resequence all ranks properly
+
+6. **Final CSV Format:**
+   ```
+   rank,secret_word,word,clue,connection_strength
+   1,forest,forest,"This is the *.",secret_word
+   2,forest,foresting,"related to that environment's management",strong
+   ...
+   ```
+
+### **File Structure Context:**
+```
+C:\space\words\
+├── scripts/
+│   ├── utilities/
+│   │   ├── config.py          # ✅ Complete configuration
+│   │   └── progress_tracker.py # ✅ Progress tracking
+│   ├── processing/
+│   │   └── generate_csv.py    # ❌ YOU MUST CREATE THIS
+│   └── embeddings/
+│       └── create_embeddings.py # ✅ Already works
+├── secretword/
+│   └── embeddings-forest.txt  # ✅ Input file (114,102 words)
+├── data/
+│   └── enable2.txt            # ✅ Word list
+└── .env/
+    └── embeddings2.json       # ✅ Embeddings cache
+```
+
+### **Script Structure Template:**
+```python
+#!/usr/bin/env python3
+"""
+Generate complete CSV for a secret word with AI clues and dynamic cutoff
+Usage: python generate_csv.py <secret_word>
+"""
+
+import sys
+from pathlib import Path
+
+# Add utilities to path
+sys.path.append(str(Path(__file__).parent.parent / "utilities"))
+from config import Config
+from progress_tracker import create_tracker, quick_log
+
+def main():
+    """Main entry point"""
+    if len(sys.argv) != 2:
+        print("Usage: python generate_csv.py <secret_word>")
+        print("Example: python generate_csv.py forest")
+        sys.exit(1)
+    
+    secret_word = sys.argv[1]
+    
+    # Validate word
+    valid, result = Config.validate_word(secret_word)
+    if not valid:
+        print(f"Error: {result}")
+        sys.exit(1)
+    
+    secret_word = result
+    
+    # ... rest of implementation ...
+
+if __name__ == "__main__":
+    main()
+```
+
+### **Expected Output:**
+- `secretword/secretword-easy-animals-forest.csv` (complete CSV)
+- `secretword/secretword-easy-animals-forest_weak_queue.json` (queue file)
+- Real-time progress updates showing AI calls, cutoffs, and completion
+
+### **Usage Pattern:**
+```bash
+# Generate CSV for forest
+python scripts/processing/generate_csv.py forest
+
+# The script should work for any word (if embeddings exist)
+python scripts/processing/generate_csv.py cat
+python scripts/processing/generate_csv.py dog
+```
+
+### **Critical Instructions:**
+1. **NO side scripts** - everything must be in `scripts/processing/generate_csv.py`
+2. **Accept secret word as command line argument** - validate and use throughout
+3. **Use the modular system** - import from utilities, follow Config patterns
+4. **Handle interruption recovery** - load from checkpoints if available
+5. **Comprehensive error handling** - graceful failures, detailed logging
+6. **Status updates** - show progress every 30 seconds with ETA
+
+### **Implementation Notes:**
+- The embeddings file is already sorted by similarity (rank 1 = secret word)
+- OpenAI API key is already set in environment
+- All file paths should use `Config.get_file_paths(secret_word)`
+- Progress tracker should show "CSV_GENERATION" as task name
+- Save intermediate progress to prevent data loss
+- Make the script generic so it works for any secret word
+
+### **CRITICAL REQUIREMENT - Complete File Processing:**
+**The final CSV MUST contain ALL words from the embeddings file, regardless of when AI cutoff occurs.**
+
+After AI cutoff (either dynamic cutoff or hard cutoff at rank 10,000):
+1. Continue processing ALL remaining words from the embeddings file
+2. Assign NULL clues to all words beyond the cutoff
+3. Set connection_strength to "hard_cutoff" for these words
+4. Ensure the final CSV has the same number of rows as the embeddings file
+5. Do NOT stop processing just because AI calls have stopped
+
+**Example flow:**
+- Words 1-5,000: AI clues generated normally
+- Dynamic cutoff triggered at word 5,001 (5 consecutive weak connections)
+- Words 5,001-114,102: Continue processing with NULL clues and "hard_cutoff" strength
+- Final CSV contains all 114,102 words
+
+**Generate the complete `scripts/processing/generate_csv.py` script and run it with `python scripts/processing/generate_csv.py forest` to create the forest CSV.**

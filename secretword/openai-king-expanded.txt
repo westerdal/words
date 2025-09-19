@@ -1,0 +1,32 @@
+# Recursive Expansion for 'king'
+# Total words: 23
+# API calls: 1
+# Levels: 2
+
+# Level 1 (Direct): 5 words
+monarch (similarity: 0.90, source: king)
+empress (similarity: 0.90, source: king)
+ruler (similarity: 0.90, source: king)
+sovereign (similarity: 0.90, source: king)
+princess (similarity: 0.90, source: king)
+
+# Level 2 (1-degree): 18 words
+king (similarity: 0.00, source: monarch)
+queen (similarity: 0.00, source: monarch)
+emperor (similarity: 0.00, source: monarch)
+tsar (similarity: 0.00, source: monarch)
+potentate (similarity: 0.00, source: monarch)
+leader (similarity: 0.00, source: monarch)
+headofstate (similarity: 0.00, source: monarch)
+royalty (similarity: 0.00, source: monarch)
+consort (similarity: 0.00, source: monarch)
+tsarina (similarity: 0.00, source: monarch)
+dowager (similarity: 0.00, source: monarch)
+matriarch (similarity: 0.00, source: monarch)
+autocrat (similarity: 0.00, source: monarch)
+duchess (similarity: 0.00, source: monarch)
+lady (similarity: 0.00, source: monarch)
+heiress (similarity: 0.00, source: monarch)
+noblewoman (similarity: 0.00, source: monarch)
+aristocrat (similarity: 0.00, source: monarch)
+

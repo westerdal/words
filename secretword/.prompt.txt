@@ -1,0 +1,145 @@
+Complete Standalone Prompt for Semantic Rank Word Game Processing
+
+You are building a word game database for "Semantic Rank" - a guessing game where players guess secret words based on semantic similarity rankings and AI-generated clues.
+
+**GAME OVERVIEW:**
+- Players try to guess a secret word by receiving clues for their guesses
+- All words are ranked 1-114,113 by semantic similarity to the secret word
+- Rank 1 = secret word itself, Rank 2 = most similar word, etc.
+- Players receive 5-word clues that describe how their guess relates to the secret word
+
+**YOUR TASK:**
+Process secret words from a master list to create individual CSV files with complete rankings and AI-generated clues.
+
+**FILE STRUCTURE:**
+```
+secretword/
+├── master-list.txt                           # Input: List of words to process
+├── secretword-easy-animals-dog.csv          # Output: Individual word files
+├── secretword-easy-nature-forest.csv        # Output: Individual word files
+└── ...
+.env/
+└── embeddings2.json                         # 4.2GB file with precomputed word embeddings
+data/
+├── enable1.txt                              # 172,823 Scrabble words (original with plurals)
+└── enable2.txt                              # 114,113 Scrabble words (SINGULAR ONLY - use this)
+```
+
+**IMPORTANT: Use enable2.txt and embeddings2.json**
+- enable2.txt contains only singular words (114,113 words) - no plurals
+- embeddings2.json contains matching embeddings for these words
+- This eliminates redundant entries like "dog"/"dogs", "cat"/"cats"
+
+**INPUT FILE FORMAT (secretword/master-list.txt):**
+Each line: `difficulty-category-word`
+```
+easy-animals-dog
+easy-nature-forest
+easy-objects-book
+```
+
+**OUTPUT CSV FORMAT:**
+File name: `secretword/secretword-[difficulty]-[category]-[word].csv`
+Columns: `rank,secret_word,word,clue`
+```csv
+rank,secret_word,word,clue
+1,dog,dog,"This is the *."
+2,dog,puppy,"young offspring of that animal"
+3,dog,bark,"sound made by that animal"
+...
+10000,dog,related,"connected to that animal somehow"
+10001,dog,distant,
+10002,dog,unrelated,
+```
+
+**PROCESSING STEPS:**
+1. **Read master-list.txt** - Get first unprocessed word
+2. **Parse format** - Extract difficulty, category, word from `difficulty-category-word`
+3. **Check if exists** - Skip if `secretword-[difficulty]-[category]-[word].csv` already exists
+4. **Load word list** - Read all words from `data/enable2.txt` (114,113 singular words)
+5. **Load embeddings** - Load `.env/embeddings2.json` (precomputed 3072-dimensional vectors)
+6. **Compute rankings** - Calculate cosine similarity between embeddings to rank all words
+7. **Generate clues** - Create AI clues for ranks 1-10,000, NULL for 10,001+
+8. **Create CSV** - Save with proper filename and format
+
+**CLUE GENERATION RULES:**
+- **Rank 1 (secret word)**: `"This is the *."`
+- **Ranks 2-10,000**: AI-generated 5-word descriptions using this exact prompt:
+
+```
+"For each word below, what is a five word description of how the word relates to '[secretword]', AND you can't say '[secretword]' in that description. Return JSON format with word as key and description as value.
+
+Words: [word_list]
+
+Example format: {"puppy": "young offspring of that animal", "bark": "sound made by that animal", "leash": "rope used to control it"}"
+```
+
+- **Ranks 10,001+**: NULL (empty) - saves space
+- **AI failures**: Use "ERROR" as fallback clue
+
+**EMBEDDINGS PROCESSING:**
+- File: `.env/embeddings2.json`
+- Format: `{"word": [3072_float_array], ...}`
+- Contains embeddings for 114,102 words (11 words missing is normal)
+- **Similarity calculation**:
+  1. Load secret word embedding and normalize to unit vector
+  2. For each word in enable2.txt, load embedding and normalize
+  3. Calculate cosine similarity: `dot_product(word_embedding, secret_embedding)`
+  4. Sort by similarity (descending), then alphabetically for ties
+  5. Assign consecutive ranks starting at 1
+
+**TECHNICAL REQUIREMENTS:**
+- Use semantic similarity (NOT spelling/character similarity)
+- Process only singular words from enable2.txt
+- Handle missing embeddings gracefully (assign low similarity)
+- Use OpenAI GPT-3.5-turbo for clue generation
+- Batch clue generation (50 words per API call) for efficiency
+- Set OPENAI_API_KEY environment variable
+- Process only ONE word at a time when instructed
+
+**ERROR HANDLING:**
+- Missing embeddings: Assign similarity of -1.0
+- API failures: Use "ERROR" as clue
+- Missing files: Report error and exit
+- Invalid JSON: Use "ERROR" as clue
+
+**EXAMPLE WORKFLOW:**
+```python
+# 1. Read first line from master-list.txt
+line = "easy-animals-dog"
+difficulty, category, word = line.split('-')
+
+# 2. Check if CSV exists
+csv_file = f"secretword/secretword-{difficulty}-{category}-{word}.csv"
+if exists(csv_file): skip_to_next_word()
+
+# 3. Load enable2 words and embeddings2
+enable2_words = load_words("data/enable2.txt")  # 114,113 words
+embeddings = load_json(".env/embeddings2.json")  # 114,102 embeddings
+
+# 4. Compute semantic rankings
+secret_embedding = normalize(embeddings[word])
+similarities = []
+for w in enable2_words:
+    if w in embeddings:
+        sim = cosine_similarity(normalize(embeddings[w]), secret_embedding)
+        similarities.append((w, sim))
+    else:
+        similarities.append((w, -1.0))
+similarities.sort(key=lambda x: (-x[1], x[0]))  # Sort by similarity desc, then alphabetically
+
+# 5. Generate AI clues for ranks 2-10,000
+clues = {"word": "This is the *." if rank==1 else generate_ai_clue(word)}
+
+# 6. Create CSV with all data
+create_csv(csv_file, similarities, clues)
+```
+
+**PERFORMANCE EXPECTATIONS:**
+- Processing time: ~30 minutes per word (including AI clue generation)
+- API calls: ~200 batches for 10,000 clues
+- Output size: ~2.5MB per CSV file
+- Success rate: ~95% successful AI clues, 5% "ERROR" fallbacks
+
+**START INSTRUCTION:**
+Process the first unprocessed word from `secretword/master-list.txt`. Use enable2.txt and embeddings2.json to create its complete CSV file with semantic rankings and AI-generated clues. Report progress and results when complete.
