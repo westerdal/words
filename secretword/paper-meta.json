@@ -1,0 +1,12 @@
+{
+  "secret_word": "paper",
+  "category": "book",
+  "openai_classification": {
+    "primary_category": "book",
+    "reasoning": "Paper is commonly used as a material for books, documents, and written materials.",
+    "confidence": "high",
+    "raw_response": "Category: Book\nReasoning: Paper is commonly used as a material for books, documents, and written materials."
+  },
+  "generated_timestamp": "2025-09-21T22:44:34.942412Z",
+  "openai_model": "gpt-3.5-turbo"
+}

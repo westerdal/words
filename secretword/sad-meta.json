@@ -1,0 +1,12 @@
+{
+  "secret_word": "sad",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Sad' is an emotion that represents a feeling of sorrow or unhappiness.",
+    "confidence": "high",
+    "raw_response": "Category: Emotion\nReasoning: 'Sad' is an emotion that represents a feeling of sorrow or unhappiness."
+  },
+  "generated_timestamp": "2025-09-21T22:46:00.884937Z",
+  "openai_model": "gpt-3.5-turbo"
+}

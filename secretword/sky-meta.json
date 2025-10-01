@@ -1,0 +1,12 @@
+{
+  "secret_word": "sky",
+  "category": "weather",
+  "openai_classification": {
+    "primary_category": "weather",
+    "reasoning": "The word 'sky' is associated with the atmospheric conditions and weather phenomena, as it refers to the expanse above the Earth where clouds, sun, and stars are visible.",
+    "confidence": "high",
+    "raw_response": "Category: weather\nReasoning: The word 'sky' is associated with the atmospheric conditions and weather phenomena, as it refers to the expanse above the Earth where clouds, sun, and stars are visible."
+  },
+  "generated_timestamp": "2025-09-21T22:46:43.278633Z",
+  "openai_model": "gpt-3.5-turbo"
+}

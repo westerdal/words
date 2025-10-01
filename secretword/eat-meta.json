@@ -1,0 +1,12 @@
+{
+  "secret_word": "eat",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "'Eat' is a verb related to consuming food, making it best classified under the category of food.",
+    "confidence": "high",
+    "raw_response": "Category: food\nReasoning: 'Eat' is a verb related to consuming food, making it best classified under the category of food."
+  },
+  "generated_timestamp": "2025-09-21T22:38:52.529184Z",
+  "openai_model": "gpt-3.5-turbo"
+}

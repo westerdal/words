@@ -1,0 +1,12 @@
+{
+  "secret_word": "music",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Music\" is an abstract idea or concept related to sound and art, making it best classified under the category of concept.",
+    "confidence": "high",
+    "raw_response": "Category: Concept\nReasoning: \"Music\" is an abstract idea or concept related to sound and art, making it best classified under the category of concept."
+  },
+  "generated_timestamp": "2025-09-21T22:44:12.413019Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "forest",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Forest' is a collection of trees and other vegetation, making it a natural fit for the plant category.",
+    "confidence": "high",
+    "raw_response": "Category: Plant\nReasoning: 'Forest' is a collection of trees and other vegetation, making it a natural fit for the plant category."
+  },
+  "generated_timestamp": "2025-09-21T22:39:33.602313Z",
+  "openai_model": "gpt-3.5-turbo"
+}

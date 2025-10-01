@@ -1,0 +1,12 @@
+{
+  "secret_word": "station",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Station' is a concept that refers to a specific place or facility for a particular purpose, such as a train station or radio station.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Station' is a concept that refers to a specific place or facility for a particular purpose, such as a train station or radio station."
+  },
+  "generated_timestamp": "2025-09-21T22:47:24.181945Z",
+  "openai_model": "gpt-3.5-turbo"
+}

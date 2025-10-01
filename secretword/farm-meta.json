@@ -1,0 +1,12 @@
+{
+  "secret_word": "farm",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Farm' typically refers to a place where crops are grown and animals are raised, making it best classified under the category of plants.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: 'Farm' typically refers to a place where crops are grown and animals are raised, making it best classified under the category of plants."
+  },
+  "generated_timestamp": "2025-09-21T22:39:07.593104Z",
+  "openai_model": "gpt-3.5-turbo"
+}

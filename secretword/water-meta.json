@@ -1,0 +1,12 @@
+{
+  "secret_word": "water",
+  "category": "aquatic",
+  "openai_classification": {
+    "primary_category": "aquatic",
+    "reasoning": "Water is a fundamental element for aquatic life and is associated with fish, sea creatures, and other water animals.",
+    "confidence": "high",
+    "raw_response": "Category: Aquatic\nReasoning: Water is a fundamental element for aquatic life and is associated with fish, sea creatures, and other water animals."
+  },
+  "generated_timestamp": "2025-09-21T22:48:40.674725Z",
+  "openai_model": "gpt-3.5-turbo"
+}

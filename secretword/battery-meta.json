@@ -1,0 +1,12 @@
+{
+  "secret_word": "battery",
+  "category": "tool",
+  "openai_classification": {
+    "primary_category": "tool",
+    "reasoning": "A battery is a device that stores and provides electrical energy, commonly used to power various tools and equipment.",
+    "confidence": "high",
+    "raw_response": "Category: Tool\nReasoning: A battery is a device that stores and provides electrical energy, commonly used to power various tools and equipment."
+  },
+  "generated_timestamp": "2025-09-21T22:35:47.233632Z",
+  "openai_model": "gpt-3.5-turbo"
+}

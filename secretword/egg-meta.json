@@ -1,0 +1,12 @@
+{
+  "secret_word": "egg",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Eggs are a common food item used in cooking and meal preparation.",
+    "confidence": "high",
+    "raw_response": "Category: Food\nReasoning: Eggs are a common food item used in cooking and meal preparation."
+  },
+  "generated_timestamp": "2025-09-21T22:38:56.014120Z",
+  "openai_model": "gpt-3.5-turbo"
+}

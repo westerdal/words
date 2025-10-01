@@ -1,0 +1,12 @@
+{
+  "secret_word": "banana",
+  "category": "fruit",
+  "openai_classification": {
+    "primary_category": "fruit",
+    "reasoning": "Banana is a type of fruit.",
+    "confidence": "high",
+    "raw_response": "Category: Fruit\nReasoning: Banana is a type of fruit."
+  },
+  "generated_timestamp": "2025-09-21T22:35:43.135423Z",
+  "openai_model": "gpt-3.5-turbo"
+}

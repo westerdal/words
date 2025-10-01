@@ -1,0 +1,12 @@
+{
+  "secret_word": "library",
+  "category": "book",
+  "openai_classification": {
+    "primary_category": "book",
+    "reasoning": "A library is a place where books are stored, organized, and made available for reading and borrowing.",
+    "confidence": "high",
+    "raw_response": "Category: book\nReasoning: A library is a place where books are stored, organized, and made available for reading and borrowing."
+  },
+  "generated_timestamp": "2025-09-21T22:43:04.929142Z",
+  "openai_model": "gpt-3.5-turbo"
+}

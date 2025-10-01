@@ -1,0 +1,12 @@
+{
+  "secret_word": "tree",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Tree' is a type of plant that typically has a single stem or trunk supporting branches and leaves.",
+    "confidence": "high",
+    "raw_response": "Category: Plant\nReasoning: 'Tree' is a type of plant that typically has a single stem or trunk supporting branches and leaves."
+  },
+  "generated_timestamp": "2025-09-21T22:48:20.383643Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "draw",
+  "category": "tool",
+  "openai_classification": {
+    "primary_category": "tool",
+    "reasoning": "'Draw' can be classified as a tool because it is a verb that refers to the action of producing a picture or diagram by making marks on a surface with a pen, pencil, or other writing implement.",
+    "confidence": "high",
+    "raw_response": "Category: tool\nReasoning: 'Draw' can be classified as a tool because it is a verb that refers to the action of producing a picture or diagram by making marks on a surface with a pen, pencil, or other writing implement."
+  },
+  "generated_timestamp": "2025-09-21T22:38:31.987080Z",
+  "openai_model": "gpt-3.5-turbo"
+}

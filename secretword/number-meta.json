@@ -1,0 +1,12 @@
+{
+  "secret_word": "number",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Number' is an abstract idea representing a quantity or value, making it best classified under the category of concepts.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Number' is an abstract idea representing a quantity or value, making it best classified under the category of concepts."
+  },
+  "generated_timestamp": "2025-09-21T22:44:16.305220Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,5 @@
+# Two-pass expansion for 'fog'
+# Total words: 51
+# Generated: 2025-09-21T02:23:45.752064
+
+mist, haze, smog, cloud, vapor, murk, gloom, obscurity, blur, dimness, dusk, twilight, shadow, darkness, murkiness, gloaming, overcast, cloudiness, nebula, duskiness, smoke, steam, humidity, moisture, dew, drizzle, rain, precipitation, misty, hazy, smoky, cloudy, gloomy, murky, dusky, shadowy, dark, nebulous, humid, moist, dewy, drizzly, rainy, spray, mistiness, haziness, smokiness, vaporiness, gloominess, blurriness, shadowiness

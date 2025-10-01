@@ -1,0 +1,12 @@
+{
+  "secret_word": "art",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Art' is an abstract idea or intangible concept that involves creativity and expression.",
+    "confidence": "high",
+    "raw_response": "Category: Concept\nReasoning: 'Art' is an abstract idea or intangible concept that involves creativity and expression."
+  },
+  "generated_timestamp": "2025-09-21T22:35:35.413498Z",
+  "openai_model": "gpt-3.5-turbo"
+}

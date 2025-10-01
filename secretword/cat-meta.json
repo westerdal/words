@@ -1,0 +1,12 @@
+{
+  "secret_word": "cat",
+  "category": "domestic",
+  "openai_classification": {
+    "primary_category": "domestic",
+    "reasoning": "Cats are commonly kept as pets and are considered domestic animals.",
+    "confidence": "high",
+    "raw_response": "Category: domestic\nReasoning: Cats are commonly kept as pets and are considered domestic animals."
+  },
+  "generated_timestamp": "2025-09-21T22:37:07.887342Z",
+  "openai_model": "gpt-3.5-turbo"
+}

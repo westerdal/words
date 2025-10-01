@@ -1,0 +1,111 @@
+guess,clue,ring
+universe,The space belongs to this universe,11
+cosmos,Seek the nebula in this infinity,11
+multiverse,This reality encompasses the constellation,11
+infinity,This reality encompasses the cosmos,11
+eternity,Seek the expanse in this infinity,11
+void,This cosmos holds the constellation,11
+expanse,The system is within this cosmos,11
+totality,This universe contains the expanse,11
+existence,Look for the galaxy in this reality,11
+reality,The space belongs to this universe,11
+galaxy,The planet is within this system,10
+system,Seek the territory in this nebula,10
+nebula,The sphere belongs to this galaxy,10
+constellation,This expanse encompasses the territory,10
+cluster,This galaxy contains the domain,10
+space,This galaxy contains the territory,10
+cosmos,This galaxy contains the planet,10
+void,The sphere belongs to this galaxy,10
+expanse,Look for the globe in this cluster,10
+realm,This system holds the territory,10
+world,This world contains the landmass,9
+globe,This planet holds the formation,9
+planet,Seek the mass on this orb,9
+sphere,The mass is within this planet,9
+orb,The sea exists on this surface,9
+realm,The expanse belongs to this world,9
+domain,Seek the formation on this orb,9
+territory,This sphere has the region,9
+landmass,This globe encompasses the formation,9
+surface,Seek the expanse on this orb,9
+continent,Look for the empire on this continent,8
+hemisphere,The territory exists on this formation,8
+landmass,Seek the dominion on this mass,8
+ocean,Seek the nation on this mass,8
+sea,Seek the homeland on this mass,8
+territory,Look for the empire on this continent,8
+region,Seek the homeland on this mass,8
+expanse,This region has the nation,8
+mass,Look for the nation on this continent,8
+formation,The country belongs to this landmass,8
+country,This land encompasses the region,7
+nation,This land encompasses the region,7
+territory,The canton belongs to this nation,7
+homeland,Seek the region in this kingdom,7
+republic,Find the canton within this republic,7
+kingdom,The territory exists in this empire,7
+empire,This country holds the area,7
+federation,Seek the district in this kingdom,7
+state,Seek the territory in this kingdom,7
+dominion,This country holds the division,7
+state,Seek the locale in this county,6
+province,Seek the capital in this county,6
+region,Look for the municipality in this province,6
+county,Look for the locale in this province,6
+district,Seek the settlement in this county,6
+prefecture,Find the municipality within this district,6
+canton,This territory has the city,6
+territory,Look for the hub in this province,6
+division,The hub exists in this division,6
+area,This region contains the city,6
+city,The town belongs to this city,5
+metropolis,Find the town within this center,5
+capital,Seek the borough in this metropolis,5
+municipality,Look for the locality in this urban area,5
+township,This city contains the village,5
+center,Find the community within this center,5
+hub,This city encompasses the township,5
+locale,The borough is within this metropolis,5
+settlement,This municipality has the borough,5
+plaza,This city contains the hamlet,5
+town,Find the area within this town,4
+village,This place encompasses the locality,4
+hamlet,The locality is part of this area,4
+settlement,The precinct is part of this area,4
+community,Look for the subdivision in this community,4
+borough,Find the subdivision within this town,4
+township,Look for the district in this community,4
+locality,Find the locality within this town,4
+enclave,Look for the district in this community,4
+district,This locality contains the area,4
+neighborhood,This place contains the way,3
+district,This area holds the drive,3
+quarter,The drive exists in this region,3
+suburb,The route runs through this place,3
+ward,The street passes through this zone,3
+precinct,The boulevard passes through this zone,3
+locality,The thoroughfare is found within here,3
+zone,The road passes through this zone,3
+area,This place contains the street,3
+subdivision,Look for the lane within this area,3
+street,My sanctuary is by the zone,2
+avenue,I inhabit the area around the location,2
+road,Seek me where the house ends,2
+lane,Find me where the home leads,2
+boulevard,Find me where the site leads,2
+pathway,My sanctuary is by the space,2
+thoroughfare,My dwelling sits beside the zone,2
+route,My home is near the house,2
+drive,I reside near the home,2
+way,My sanctuary is by the site,2
+home,You have found where I live,1
+house,You have found where I live,1
+place,You have found where I live,1
+location,You have found where I live,1
+spot,You have found where I live,1
+room,You have found where I live,1
+space,You have found where I live,1
+area,You have found where I live,1
+zone,You have found where I live,1
+site,You have found where I live,1

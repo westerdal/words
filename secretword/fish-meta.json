@@ -1,0 +1,12 @@
+{
+  "secret_word": "fish",
+  "category": "aquatic",
+  "openai_classification": {
+    "primary_category": "aquatic",
+    "reasoning": "'Fish' is a type of aquatic creature that lives in water, making it best classified under the category of aquatic.",
+    "confidence": "high",
+    "raw_response": "Category: aquatic\nReasoning: 'Fish' is a type of aquatic creature that lives in water, making it best classified under the category of aquatic."
+  },
+  "generated_timestamp": "2025-09-21T22:39:18.450222Z",
+  "openai_model": "gpt-3.5-turbo"
+}

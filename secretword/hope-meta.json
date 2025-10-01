@@ -1,0 +1,12 @@
+{
+  "secret_word": "hope",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Hope' is an emotion that involves a feeling of expectation and desire for a certain thing to happen.",
+    "confidence": "high",
+    "raw_response": "Category: Emotion\nReasoning: 'Hope' is an emotion that involves a feeling of expectation and desire for a certain thing to happen."
+  },
+  "generated_timestamp": "2025-09-21T22:41:21.814425Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "peace",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Peace\" is an abstract idea or concept that represents a state of harmony and absence of conflict.",
+    "confidence": "high",
+    "raw_response": "Category: Concept\nReasoning: \"Peace\" is an abstract idea or concept that represents a state of harmony and absence of conflict."
+  },
+  "generated_timestamp": "2025-09-21T22:44:42.145695Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "death",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Death\" is an abstract idea and concept that represents the end of life or the state of being deceased.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: \"Death\" is an abstract idea and concept that represents the end of life or the state of being deceased."
+  },
+  "generated_timestamp": "2025-09-21T22:38:20.891215Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "cry",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Cry' is associated with the emotional state of expressing sadness, distress, or pain through tears.",
+    "confidence": "high",
+    "raw_response": "Category: emotion\nReasoning: 'Cry' is associated with the emotional state of expressing sadness, distress, or pain through tears."
+  },
+  "generated_timestamp": "2025-09-21T22:38:15.771395Z",
+  "openai_model": "gpt-3.5-turbo"
+}

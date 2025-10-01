@@ -1,0 +1,12 @@
+{
+  "secret_word": "family",
+  "category": "domestic",
+  "openai_classification": {
+    "primary_category": "domestic",
+    "reasoning": "'Family' typically refers to a group of people related by blood or marriage, which falls under the category of domestic relationships.",
+    "confidence": "high",
+    "raw_response": "Category: domestic\nReasoning: 'Family' typically refers to a group of people related by blood or marriage, which falls under the category of domestic relationships."
+  },
+  "generated_timestamp": "2025-09-21T22:39:03.844884Z",
+  "openai_model": "gpt-3.5-turbo"
+}

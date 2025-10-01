@@ -1,0 +1,12 @@
+{
+  "secret_word": "idea",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Idea\" is an abstract concept, representing a thought or suggestion, making it best classified under the category of concepts.",
+    "confidence": "high",
+    "raw_response": "Category: Concept\nReasoning: \"Idea\" is an abstract concept, representing a thought or suggestion, making it best classified under the category of concepts."
+  },
+  "generated_timestamp": "2025-09-21T22:42:08.546161Z",
+  "openai_model": "gpt-3.5-turbo"
+}

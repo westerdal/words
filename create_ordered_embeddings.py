@@ -17,7 +17,7 @@ def create_ordered_embeddings(secret_word):
     print(f"\n=== Creating Ordered Embeddings for '{secret_word.upper()}' ===")
     
     # File paths
-    output_file = f"secretword/embeddings-{secret_word}.txt"
+    output_file = f"secretword/{secret_word}-embeddings.txt"
     
     # Check if already exists
     if os.path.exists(output_file):

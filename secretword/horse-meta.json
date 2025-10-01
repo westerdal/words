@@ -1,0 +1,12 @@
+{
+  "secret_word": "horse",
+  "category": "domestic",
+  "openai_classification": {
+    "primary_category": "domestic",
+    "reasoning": "Horses are domesticated creatures that are commonly found on farms and used for various purposes such as riding, racing, and work.",
+    "confidence": "high",
+    "raw_response": "Category: domestic\nReasoning: Horses are domesticated creatures that are commonly found on farms and used for various purposes such as riding, racing, and work."
+  },
+  "generated_timestamp": "2025-09-21T22:41:31.205548Z",
+  "openai_model": "gpt-3.5-turbo"
+}

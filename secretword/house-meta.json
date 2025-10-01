@@ -1,0 +1,12 @@
+{
+  "secret_word": "house",
+  "category": "furniture",
+  "openai_classification": {
+    "primary_category": "furniture",
+    "reasoning": "A \"house\" is typically associated with being a type of building structure that contains furniture such as chairs, tables, and beds.",
+    "confidence": "high",
+    "raw_response": "Category: furniture\nReasoning: A \"house\" is typically associated with being a type of building structure that contains furniture such as chairs, tables, and beds."
+  },
+  "generated_timestamp": "2025-09-21T22:41:47.549182Z",
+  "openai_model": "gpt-3.5-turbo"
+}

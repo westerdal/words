@@ -1,0 +1,12 @@
+{
+  "secret_word": "rabbit",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "A rabbit is typically considered a wild animal, living in natural habitats and not domesticated like pets or farm animals.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: A rabbit is typically considered a wild animal, living in natural habitats and not domesticated like pets or farm animals."
+  },
+  "generated_timestamp": "2025-09-21T22:45:16.949176Z",
+  "openai_model": "gpt-3.5-turbo"
+}

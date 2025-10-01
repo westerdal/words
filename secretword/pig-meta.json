@@ -1,0 +1,12 @@
+{
+  "secret_word": "pig",
+  "category": "domestic",
+  "openai_classification": {
+    "primary_category": "domestic",
+    "reasoning": "Pigs are commonly domesticated farm animals raised for their meat and other products.",
+    "confidence": "high",
+    "raw_response": "Category: domestic\nReasoning: Pigs are commonly domesticated farm animals raised for their meat and other products."
+  },
+  "generated_timestamp": "2025-09-21T22:44:49.622035Z",
+  "openai_model": "gpt-3.5-turbo"
+}

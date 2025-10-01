@@ -1,0 +1,12 @@
+{
+  "secret_word": "story",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "A \"story\" is a narrative or account of events, making it an abstract idea or intangible concept.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: A \"story\" is a narrative or account of events, making it an abstract idea or intangible concept."
+  },
+  "generated_timestamp": "2025-09-21T22:47:36.240848Z",
+  "openai_model": "gpt-3.5-turbo"
+}

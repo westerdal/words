@@ -1,0 +1,12 @@
+{
+  "secret_word": "sound",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Sound' is an abstract idea related to vibrations that can be heard, making it best classified under the concept category.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Sound' is an abstract idea related to vibrations that can be heard, making it best classified under the concept category."
+  },
+  "generated_timestamp": "2025-09-21T22:47:02.240621Z",
+  "openai_model": "gpt-3.5-turbo"
+}

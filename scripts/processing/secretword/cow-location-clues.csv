@@ -1,0 +1,56 @@
+guess,clue,ring
+barn,You have found where I live,1
+stable,You have found where I live,1
+farm,You have found where I live,1
+pasture,You have found where I live,1
+pen,You have found where I live,1
+street,Check the thoroughfares of my domain,2
+avenue,Seek the passages by my home,2
+road,Seek the passages by my home,2
+lane,"Look closer, in the paths around my dwelling",2
+boulevard,"Look closer, in the paths around my dwelling",2
+neighborhood,I dwell in the heart of this community,3
+district,Look closer within this settlement,3
+quarter,My home lies within this local area,3
+suburb,I dwell in the heart of this community,3
+ward,Look closer within this settlement,3
+town,Look deeper into this settlement,4
+village,Seek the heart of this community,4
+hamlet,Seek the heart of this community,4
+settlement,I live in a smaller place within here,4
+community,My home is in the center of this area,4
+city,My neighborhood lies within these borders,5
+metropolis,Seek the residential zones within,5
+capital,Look for the local area within,5
+municipality,Look for the local area within,5
+township,Look for the local area within,5
+state,Seek the local municipalities within,6
+province,Look for the smaller settlements here,6
+region,My town exists within this region,6
+county,Look for the smaller settlements here,6
+district,Look for the smaller settlements here,6
+country,I dwell in a province of this land,7
+nation,I dwell in a province of this land,7
+territory,Look for the smaller territories within,7
+homeland,I dwell in a province of this land,7
+republic,Look for the smaller territories within,7
+continent,My nation exists on this vast landmass,8
+hemisphere,Seek the nations within these borders,8
+landmass,Seek the nations within these borders,8
+ocean,My homeland lies within this expanse,8
+sea,My nation exists on this vast landmass,8
+world,My world is part of this celestial body,9
+earth,I dwell on a region of this globe,9
+globe,I dwell on a region of this globe,9
+planet,Look for the landmasses on this orb,9
+sphere,Look for the landmasses on this orb,9
+galaxy,My world orbits within this cosmic family,10
+milky way,I dwell on a world within this cluster,10
+solar system,I dwell on a world within this cluster,10
+nebula,Seek the celestial bodies here,10
+void,My planet lies within this stellar group,10
+universe,Look for the star systems within,11
+cosmos,I dwell in a galaxy of this cosmos,11
+multiverse,Seek the stellar clusters here,11
+infinity,My universe is part of this totality,11
+eternity,I dwell in a galaxy of this cosmos,11

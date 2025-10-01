@@ -1,0 +1,12 @@
+{
+  "secret_word": "tiger",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Tigers are wild animals and are not domesticated or kept as pets.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Tigers are wild animals and are not domesticated or kept as pets."
+  },
+  "generated_timestamp": "2025-09-21T22:48:06.119749Z",
+  "openai_model": "gpt-3.5-turbo"
+}

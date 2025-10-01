@@ -1,0 +1,12 @@
+{
+  "secret_word": "home",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Home' is an abstract idea representing a place of residence or belonging, making it best classified under the concept category.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Home' is an abstract idea representing a place of residence or belonging, making it best classified under the concept category."
+  },
+  "generated_timestamp": "2025-09-21T22:41:04.233266Z",
+  "openai_model": "gpt-3.5-turbo"
+}

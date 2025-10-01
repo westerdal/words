@@ -1,0 +1,12 @@
+{
+  "secret_word": "run",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Run\" is a verb that represents an action or activity, making it an abstract idea or concept.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: \"Run\" is a verb that represents an action or activity, making it an abstract idea or concept."
+  },
+  "generated_timestamp": "2025-09-21T22:45:57.092412Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "glass",
+  "category": "tool",
+  "openai_classification": {
+    "primary_category": "tool",
+    "reasoning": "Glass is commonly used as a material for various tools, such as drinking glasses, windows, and mirrors.",
+    "confidence": "high",
+    "raw_response": "Category: tool\nReasoning: Glass is commonly used as a material for various tools, such as drinking glasses, windows, and mirrors."
+  },
+  "generated_timestamp": "2025-09-21T22:39:56.221121Z",
+  "openai_model": "gpt-3.5-turbo"
+}

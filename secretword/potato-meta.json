@@ -1,0 +1,12 @@
+{
+  "secret_word": "potato",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Potato is a starchy tuber that is commonly consumed as a food item, making it best classified under the category of food.",
+    "confidence": "high",
+    "raw_response": "Category: food\nReasoning: Potato is a starchy tuber that is commonly consumed as a food item, making it best classified under the category of food."
+  },
+  "generated_timestamp": "2025-09-21T22:45:05.585587Z",
+  "openai_model": "gpt-3.5-turbo"
+}

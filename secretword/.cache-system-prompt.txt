@@ -1,0 +1,201 @@
+## **OpenAI Clue Cache System Implementation**
+
+### **Objective**
+Create a persistent caching system to store OpenAI API responses for clue generation. This prevents redundant API calls when processes restart, significantly reducing processing time and API costs.
+
+### **Cache Structure**
+**File Format**: `secretword/[secretword]-cache.json`
+**JSON Structure**:
+```json
+{
+  "metadata": {
+    "secret_word": "fish",
+    "created_at": "2024-01-20T16:59:22Z",
+    "last_updated": "2024-01-20T17:15:30Z",
+    "total_cached_clues": 2328,
+    "api_calls_saved": 47,
+    "cache_version": "1.0",
+    "prompt_hash": "sha256:abc123...",
+    "model_used": "gpt-3.5-turbo"
+  },
+  "clues": {
+    "salmon": {
+      "clue": "I am smaller than this swimmer",
+      "strength": "strong",
+      "rank": 34,
+      "similarity": 0.892,
+      "cached_at": "2024-01-20T16:42:10Z",
+      "api_call_duration_ms": 1250,
+      "violations": ["contains_secret_word"],
+      "original_clue": "I am a different type of fish"
+    },
+    "seafood": {
+      "clue": "I am often served as this",
+      "strength": "strong", 
+      "rank": 1,
+      "similarity": 0.945,
+      "cached_at": "2024-01-20T16:42:10Z",
+      "api_call_duration_ms": 1250,
+      "violations": [],
+      "original_clue": "I am often served as this"
+    }
+  }
+}
+```
+
+### **Implementation Requirements**
+
+#### **1. Cache Loading & Initialization**
+```python
+class ClueCache:
+    def __init__(self, secret_word: str):
+        self.secret_word = secret_word
+        self.cache_file = f"secretword/cache-{secret_word}.json"
+        self.cache = self.load_cache()
+        self.hits = 0
+        self.misses = 0
+        self.api_calls_saved = 0
+        
+    def load_cache(self) -> Dict:
+        """Load existing cache or create new one"""
+        if os.path.exists(self.cache_file):
+            with open(self.cache_file, 'r') as f:
+                return json.load(f)
+        return self.create_empty_cache()
+```
+
+#### **2. Cache Lookup Logic**
+**Before any OpenAI API call**:
+1. Check if `guess_word` exists in `cache["clues"]`
+2. If found: return cached result, increment `hits`
+3. If not found: make API call, cache result, increment `misses`
+4. Auto-save cache every 50 new entries
+
+#### **3. Cache Validation & Integrity**
+- **Prompt Hash**: Store hash of current prompt to detect changes
+- **Model Validation**: Ensure same model was used for cached entries
+- **Rank Consistency**: Verify rank hasn't changed significantly
+- **Expiration**: Optional TTL for cache entries (e.g., 30 days)
+
+#### **4. Enhanced Metadata Tracking**
+```json
+"metadata": {
+  "secret_word": "fish",
+  "created_at": "2024-01-20T16:59:22Z",
+  "last_updated": "2024-01-20T17:15:30Z",
+  "total_cached_clues": 2328,
+  "api_calls_saved": 47,
+  "estimated_cost_saved_usd": 2.35,
+  "cache_hit_rate": 0.847,
+  "average_api_response_time_ms": 1450,
+  "cache_version": "1.0",
+  "prompt_hash": "sha256:abc123...",
+  "model_used": "gpt-3.5-turbo",
+  "max_tokens": 2000,
+  "temperature": 0.7,
+  "processing_stats": {
+    "total_words_processed": 5000,
+    "words_from_cache": 4235,
+    "words_from_api": 765,
+    "violation_rate": 0.23,
+    "most_common_violations": ["contains_secret_word", "parsing_error"]
+  }
+}
+```
+
+#### **5. Violation Tracking & Recovery**
+```json
+"violations": ["contains_secret_word", "parsing_error"],
+"original_clue": "I am a different type of fish",
+"fallback_applied": "Super close, sizzling hot",
+"retry_count": 1,
+"last_retry_at": "2024-01-20T16:45:30Z"
+```
+
+#### **6. Performance Monitoring**
+- Track cache hit/miss ratios
+- Monitor API response times
+- Calculate cost savings
+- Log cache size and growth rate
+- Identify most/least cached words
+
+### **Advanced Features**
+
+#### **7. Cross-Word Cache Sharing**
+- **Shared Generic Cache**: `secretword/cache-generic.json`
+- Store clues for words that are universally weak (e.g., "spoon", "zipper")
+- Share across all secret words to maximize efficiency
+
+#### **8. Batch Cache Operations**
+```python
+def cache_batch_lookup(self, words: List[str]) -> Tuple[Dict, List[str]]:
+    """Return cached results and list of words needing API calls"""
+    cached_results = {}
+    api_needed = []
+    
+    for word in words:
+        if word in self.cache["clues"]:
+            cached_results[word] = self.cache["clues"][word]
+            self.hits += 1
+        else:
+            api_needed.append(word)
+            self.misses += 1
+    
+    return cached_results, api_needed
+```
+
+#### **9. Cache Maintenance & Cleanup**
+- **Automatic Cleanup**: Remove entries older than X days
+- **Cache Compression**: Compress old cache files
+- **Duplicate Detection**: Merge similar entries
+- **Integrity Checks**: Validate JSON structure on load
+
+#### **10. Debugging & Analytics**
+```python
+def get_cache_stats(self) -> Dict:
+    """Return comprehensive cache statistics"""
+    return {
+        "total_entries": len(self.cache["clues"]),
+        "hit_rate": self.hits / (self.hits + self.misses) if (self.hits + self.misses) > 0 else 0,
+        "estimated_time_saved_minutes": self.api_calls_saved * 2.5,  # Avg 2.5s per API call
+        "cache_size_mb": os.path.getsize(self.cache_file) / 1024 / 1024,
+        "most_violated_words": self.get_most_violated_words(),
+        "fastest_cached_words": self.get_fastest_responses(),
+        "cache_age_days": (datetime.now() - datetime.fromisoformat(self.cache["metadata"]["created_at"])).days
+    }
+```
+
+### **Implementation Priority**
+1. **Phase 1**: Basic cache lookup and storage
+2. **Phase 2**: Metadata tracking and statistics  
+3. **Phase 3**: Violation tracking and recovery
+4. **Phase 4**: Cross-word sharing and optimization
+5. **Phase 5**: Advanced analytics and maintenance
+
+### **Integration Points**
+- Modify `get_ai_clues_batch()` to check cache first
+- Update progress logging to show cache hit/miss stats
+- Add cache statistics to final CSV generation report
+- Include cache warming for common words
+
+### **Expected Benefits**
+- **Speed**: 10-50x faster processing for repeated words
+- **Cost**: 70-90% reduction in OpenAI API costs for re-runs
+- **Reliability**: Immune to API rate limits on cached words
+- **Analytics**: Rich data for optimization and debugging
+- **Recovery**: Seamless restart after interruptions
+
+### **File Structure**
+```
+secretword/
+├── fish-cache.json           # Individual word caches
+├── dog-cache.json
+├── cat-cache.json
+├── cache-generic.json        # Shared weak word cache
+├── cache-stats.json          # Global cache statistics
+└── cache-maintenance.log     # Cleanup and maintenance log
+```
+
+This caching system will transform the processing from hours to minutes for subsequent runs and provide valuable insights into the clue generation process.
+
+

@@ -1,0 +1,12 @@
+{
+  "secret_word": "sing",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Sing\" is an action or activity, which falls under the category of abstract ideas or intangible things.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: \"Sing\" is an action or activity, which falls under the category of abstract ideas or intangible things."
+  },
+  "generated_timestamp": "2025-09-21T22:46:39.506464Z",
+  "openai_model": "gpt-3.5-turbo"
+}

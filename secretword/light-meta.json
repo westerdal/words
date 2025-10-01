@@ -1,0 +1,12 @@
+{
+  "secret_word": "light",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Light' can be classified as a concept, representing illumination, brightness, or the opposite of darkness.",
+    "confidence": "high",
+    "raw_response": "Category: Concept\nReasoning: 'Light' can be classified as a concept, representing illumination, brightness, or the opposite of darkness."
+  },
+  "generated_timestamp": "2025-09-21T22:43:12.880794Z",
+  "openai_model": "gpt-3.5-turbo"
+}

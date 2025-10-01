@@ -1,0 +1,12 @@
+{
+  "secret_word": "space",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Space' refers to an abstract idea related to the physical universe beyond Earth, making it a concept.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Space' refers to an abstract idea related to the physical universe beyond Earth, making it a concept."
+  },
+  "generated_timestamp": "2025-09-21T22:47:09.295071Z",
+  "openai_model": "gpt-3.5-turbo"
+}

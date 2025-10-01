@@ -32,8 +32,8 @@ class EmbeddingsMerger:
         self.secret_word = result
         
         # File paths
-        self.embeddings_file = Config.SECRETWORD_DIR / f"embeddings-{self.secret_word}.txt"
-        self.embeddings2_file = Config.SECRETWORD_DIR / f"embeddings-{self.secret_word}2.txt"
+        self.embeddings_file = Config.SECRETWORD_DIR / f"{self.secret_word}-embeddings.txt"
+        self.embeddings2_file = Config.SECRETWORD_DIR / f"{self.secret_word}2-embeddings.txt"
         
         # Data
         self.original_rankings = {}  # word -> (rank, similarity)

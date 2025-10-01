@@ -1,0 +1,12 @@
+{
+  "secret_word": "read",
+  "category": "book",
+  "openai_classification": {
+    "primary_category": "book",
+    "reasoning": "'Read' is commonly associated with the action of reading, which is typically done with books or written materials.",
+    "confidence": "high",
+    "raw_response": "Category: book\nReasoning: 'Read' is commonly associated with the action of reading, which is typically done with books or written materials."
+  },
+  "generated_timestamp": "2025-09-21T22:45:26.252929Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "spoon",
+  "category": "tool",
+  "openai_classification": {
+    "primary_category": "tool",
+    "reasoning": "A spoon is a utensil used for eating and serving food, making it best classified as a tool.",
+    "confidence": "high",
+    "raw_response": "Category: tool\nReasoning: A spoon is a utensil used for eating and serving food, making it best classified as a tool."
+  },
+  "generated_timestamp": "2025-09-21T22:47:16.459614Z",
+  "openai_model": "gpt-3.5-turbo"
+}

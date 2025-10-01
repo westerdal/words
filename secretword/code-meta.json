@@ -1,0 +1,12 @@
+{
+  "secret_word": "code",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Code' is a term related to programming and computer science, which falls under the category of abstract ideas and intangible concepts.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Code' is a term related to programming and computer science, which falls under the category of abstract ideas and intangible concepts."
+  },
+  "generated_timestamp": "2025-09-21T22:37:49.968182Z",
+  "openai_model": "gpt-3.5-turbo"
+}

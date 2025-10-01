@@ -1,0 +1,12 @@
+{
+  "secret_word": "church",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Church' is a concept representing a place of worship or a religious institution, making it an abstract idea rather than a tangible object.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Church' is a concept representing a place of worship or a religious institution, making it an abstract idea rather than a tangible object."
+  },
+  "generated_timestamp": "2025-09-21T22:37:23.340024Z",
+  "openai_model": "gpt-3.5-turbo"
+}

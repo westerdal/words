@@ -136,6 +136,21 @@ class RecursiveExpander:
             
             content = response.choices[0].message.content.strip()
             
+        except openai.APIConnectionError as e:
+            quick_log(self.secret_word, f"❌ FATAL: OpenAI connection error in expansion - {e}")
+            raise Exception(f"OpenAI connection failed during expansion: {e}")
+        except openai.APIError as e:
+            quick_log(self.secret_word, f"❌ FATAL: OpenAI API error in expansion - {e}")
+            raise Exception(f"OpenAI API error during expansion: {e}")
+        except openai.RateLimitError as e:
+            quick_log(self.secret_word, f"❌ FATAL: OpenAI rate limit in expansion - {e}")
+            raise Exception(f"OpenAI rate limit exceeded during expansion: {e}")
+        except Exception as e:
+            quick_log(self.secret_word, f"❌ FATAL: Unexpected OpenAI error in expansion - {e}")
+            raise Exception(f"OpenAI expansion failed: {e}")
+        
+        try:
+            
             # Parse response
             expanded_words = []
             for line in content.split('\n'):
@@ -366,10 +381,10 @@ if __name__ == "__main__":
     try:
         # Import the OpenAI similar words module
         try:
-            from openai_similar_words import get_openai_similar_words
+            from 020_expand_vocabulary import get_openai_similar_words
         except ImportError:
             sys.path.append(str(Path(__file__).parent))
-            from openai_similar_words import get_openai_similar_words
+            from 020_expand_vocabulary import get_openai_similar_words
         
         print(f"🔍 Getting OpenAI words for '{secret_word}' first...")
         initial_words = get_openai_similar_words(secret_word)

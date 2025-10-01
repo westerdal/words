@@ -1,0 +1,14 @@
+{
+  "word": "kitchen",
+  "task_name": "CSV_GENERATION",
+  "current_item": 200,
+  "total_items": 114430,
+  "start_time": "2025-09-21T11:59:37.871598",
+  "checkpoint_time": "2025-09-21T12:00:03.838555",
+  "data": {
+    "processed_count": 200,
+    "ai_calls_made": 3,
+    "ai_cutoff_reached": false,
+    "csv_rows": 151
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "gear",
+  "category": "tool",
+  "openai_classification": {
+    "primary_category": "tool",
+    "reasoning": "A gear is a mechanical tool used to transfer motion or power between rotating shafts.",
+    "confidence": "high",
+    "raw_response": "Category: Tool\nReasoning: A gear is a mechanical tool used to transfer motion or power between rotating shafts."
+  },
+  "generated_timestamp": "2025-09-21T22:33:32.417669Z",
+  "openai_model": "gpt-3.5-turbo"
+}

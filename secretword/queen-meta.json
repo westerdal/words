@@ -1,0 +1,12 @@
+{
+  "secret_word": "queen",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Queen' is a title or position of authority, representing an abstract idea or intangible concept rather than a tangible object or living being.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Queen' is a title or position of authority, representing an abstract idea or intangible concept rather than a tangible object or living being."
+  },
+  "generated_timestamp": "2025-09-21T22:45:13.170601Z",
+  "openai_model": "gpt-3.5-turbo"
+}

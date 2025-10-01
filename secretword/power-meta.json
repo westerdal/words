@@ -1,0 +1,12 @@
+{
+  "secret_word": "power",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Power' is an abstract idea or intangible concept related to control, influence, or authority.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Power' is an abstract idea or intangible concept related to control, influence, or authority."
+  },
+  "generated_timestamp": "2025-09-21T22:45:09.280490Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,5 @@
+# Two-pass expansion for 'fire'
+# Total words: 41
+# Generated: 2025-09-20T13:07:13.807367
+
+flame, burn, heat, blaze, inferno, combustion, spark, ember, ash, smoke, smolder, ignite, kindle, pyre, conflagration, arson, incinerate, scorch, singe, char, glow, torch, flare, scald, sear, warm, hell, oxidation, flicker, cinder, dust, fume, smog, simmer, light, enkindle, holocaust, pyromania, cremate, parch, blacken

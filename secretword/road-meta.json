@@ -1,0 +1,12 @@
+{
+  "secret_word": "road",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Road' is a concept that represents a route or path for traveling from one place to another.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Road' is a concept that represents a route or path for traveling from one place to another."
+  },
+  "generated_timestamp": "2025-09-21T22:45:37.269814Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -41,13 +41,38 @@ class ProgressTracker:
         # Ensure logs directory exists
         Config.ensure_directories()
         
-        self._log(f"🚀 Starting {task_name} for '{word}' ({total_items:,} items)")
+        try:
+            self._log(f"🚀 Starting {task_name} for '{word}' ({total_items:,} items)")
+        except UnicodeEncodeError:
+            self._log(f"[START] Starting {task_name} for '{word}' ({total_items:,} items)")
     
     def _log(self, message: str, force_flush: bool = True):
-        """Log message with timestamp"""
+        """Log message with timestamp and enhanced Unicode handling"""
         timestamp = datetime.now().strftime("%H:%M:%S")
         formatted_message = f"[{timestamp}] {message}"
-        print(formatted_message)
+        
+        try:
+            print(formatted_message)
+        except UnicodeEncodeError:
+            # Use the same emoji replacements as quick_log
+            emoji_replacements = {
+                '🚀': '[START]', '📊': '[STATS]', '✅': '[OK]', '❌': '[ERROR]', 
+                '⚠️': '[WARN]', '🔍': '[INFO]', '💾': '[SAVE]', '🤖': '[AI]',
+                '📂': '[FILE]', '📋': '[DATA]', '📄': '[DOC]', '🎯': '[TARGET]',
+                '🔒': '[LOCK]', '🗑️': '[DEL]', '🎉': '[SUCCESS]', '⏱️': '[TIME]',
+                '📥': '[LOAD]', '🔄': '[PROC]', '📈': '[UP]', '📉': '[DOWN]',
+                '🛑': '[STOP]', '⏸️': '[PAUSE]', '🏁': '[FINISH]', '💥': '[CRASH]'
+            }
+            
+            safe_message = formatted_message
+            for emoji, replacement in emoji_replacements.items():
+                safe_message = safe_message.replace(emoji, replacement)
+            
+            try:
+                print(safe_message)
+            except UnicodeEncodeError:
+                ascii_message = safe_message.encode('ascii', errors='replace').decode('ascii')
+                print(ascii_message)
         
         if force_flush:
             sys.stdout.flush()
@@ -233,10 +258,34 @@ def create_tracker(word: str, task_name: str, total_items: int = 0) -> ProgressT
     return ProgressTracker(word, task_name, total_items)
 
 def quick_log(word: str, message: str):
-    """Quick log message without full tracker"""
+    """Quick log message without full tracker with enhanced Unicode handling"""
     timestamp = datetime.now().strftime("%H:%M:%S")
     formatted_message = f"[{timestamp}] {message}"
-    print(formatted_message)
+    
+    try:
+        print(formatted_message)
+    except UnicodeEncodeError:
+        # Enhanced fallback: replace emojis with meaningful ASCII equivalents
+        emoji_replacements = {
+            '🚀': '[START]', '📊': '[STATS]', '✅': '[OK]', '❌': '[ERROR]', 
+            '⚠️': '[WARN]', '🔍': '[INFO]', '💾': '[SAVE]', '🤖': '[AI]',
+            '📂': '[FILE]', '📋': '[DATA]', '📄': '[DOC]', '🎯': '[TARGET]',
+            '🔒': '[LOCK]', '🗑️': '[DEL]', '🎉': '[SUCCESS]', '⏱️': '[TIME]',
+            '📥': '[LOAD]', '🔄': '[PROC]', '📈': '[UP]', '📉': '[DOWN]',
+            '🛑': '[STOP]', '⏸️': '[PAUSE]', '🏁': '[FINISH]', '💥': '[CRASH]'
+        }
+        
+        safe_message = formatted_message
+        for emoji, replacement in emoji_replacements.items():
+            safe_message = safe_message.replace(emoji, replacement)
+        
+        # Final fallback for any remaining Unicode
+        try:
+            print(safe_message)
+        except UnicodeEncodeError:
+            ascii_message = safe_message.encode('ascii', errors='replace').decode('ascii')
+            print(ascii_message)
+    
     sys.stdout.flush()
 
 if __name__ == "__main__":

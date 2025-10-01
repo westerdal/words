@@ -1,0 +1,12 @@
+{
+  "secret_word": "apple",
+  "category": "fruit",
+  "openai_classification": {
+    "primary_category": "fruit",
+    "reasoning": "An apple is a type of fruit, specifically a fruit that is typically grown on trees and consumed as a snack or used in various dishes.",
+    "confidence": "high",
+    "raw_response": "Category: fruit\nReasoning: An apple is a type of fruit, specifically a fruit that is typically grown on trees and consumed as a snack or used in various dishes."
+  },
+  "generated_timestamp": "2025-09-21T22:35:31.755448Z",
+  "openai_model": "gpt-3.5-turbo"
+}

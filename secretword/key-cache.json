@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "secret_word": "key",
+    "created_at": "2025-09-21T13:29:02.552830+00:00",
+    "last_updated": "2025-09-21T18:57:55.913773+00:00",
+    "total_cached_clues": 150,
+    "api_calls_saved": 0,
+    "cache_version": "1.0",
+    "prompt_hash": "7d45be7abc6a7954",
+    "model_used": "gpt-3.5-turbo",
+    "max_tokens": 2000,
+    "temperature": 0.7,
+    "processing_stats": {
+      "total_words_processed": 0,
+      "words_from_cache": 0,
+      "words_from_api": 0,
+      "violation_rate": 0.0,
+      "most_common_violations": []
+    }
+  },
+  "clues": {
+    "keyword": {
+      "clue": "I am crucial in unlocking this",
+      "strength": "strong",
+      "rank": 2,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am crucial in unlocking this"
+    },
+    "keyed": {
+      "clue": "I am past tense of this action",
+      "strength": "medium",
+      "rank": 3,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am past tense of this action"
+    },
+    "keyway": {
+      "clue": "I am a path for this",
+      "strength": "medium",
+      "rank": 4,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a path for this"
+    },
+    "keying": {
+      "clue": "I am the present tense of this",
+      "strength": "medium",
+      "rank": 5,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am the present tense of this"
+    },
+    "passkey": {
+      "clue": "I am another way to say this",
+      "strength": "medium",
+      "rank": 6,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am another way to say this"
+    },
+    "keyset": {
+      "clue": "I am a collection of this",
+      "strength": "medium",
+      "rank": 7,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a collection of this"
+    },
+    "keyboard": {
+      "clue": "I am used with this input device",
+      "strength": "strong",
+      "rank": 8,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used with this input device"
+    },
+    "keyster": {
+      "clue": "I am related to this container",
+      "strength": "medium",
+      "rank": 9,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am related to this container"
+    },
+    "keyless": {
+      "clue": "I am the opposite of this",
+      "strength": "strong",
+      "rank": 10,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am the opposite of this"
+    },
+    "keynote": {
+      "clue": "I am the main idea in this",
+      "strength": "strong",
+      "rank": 11,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am the main idea in this"
+    },
+    "identifier": {
+      "clue": "I am used to recognize this",
+      "strength": "strong",
+      "rank": 12,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to recognize this"
+    },
+    "keynoter": {
+      "clue": "I am a speaker at this event",
+      "strength": "medium",
+      "rank": 13,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a speaker at this event"
+    },
+    "keystone": {
+      "clue": "I am a central part of this",
+      "strength": "strong",
+      "rank": 14,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a central part of this"
+    },
+    "keynoted": {
+      "clue": "I am past tense of this event",
+      "strength": "medium",
+      "rank": 15,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am past tense of this event"
+    },
+    "keybutton": {
+      "clue": "I am pressed on this device",
+      "strength": "strong",
+      "rank": 16,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am pressed on this device"
+    },
+    "keynoting": {
+      "clue": "I am currently presenting this",
+      "strength": "medium",
+      "rank": 17,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am currently presenting this"
+    },
+    "index": {
+      "clue": "I am used to find this",
+      "strength": "strong",
+      "rank": 18,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to find this"
+    },
+    "id": {
+      "clue": "I am a short form of this",
+      "strength": "strong",
+      "rank": 19,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a short form of this"
+    },
+    "rekey": {
+      "clue": "I am done again to this",
+      "strength": "strong",
+      "rank": 20,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am done again to this"
+    },
+    "value": {
+      "clue": "I am the worth of this",
+      "strength": "strong",
+      "rank": 21,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am the worth of this"
+    },
+    "keystroke": {
+      "clue": "I am a unit of typing this",
+      "strength": "strong",
+      "rank": 22,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a unit of typing this"
+    },
+    "dovekey": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 23,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "offkey": {
+      "clue": "I am not in tune with this",
+      "strength": "weak",
+      "rank": 24,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am not in tune with this"
+    },
+    "keypad": {
+      "clue": "I am used to input this",
+      "strength": "strong",
+      "rank": 25,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to input this"
+    },
+    "token": {
+      "clue": "I represent this securely",
+      "strength": "strong",
+      "rank": 26,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I represent this securely"
+    },
+    "code": {
+      "clue": "I am a sequence for this",
+      "strength": "strong",
+      "rank": 27,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am a sequence for this"
+    },
+    "hash": {
+      "clue": "I am used to encrypt this",
+      "strength": "strong",
+      "rank": 28,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to encrypt this"
+    },
+    "keyhole": {
+      "clue": "I am where you insert this",
+      "strength": "strong",
+      "rank": 29,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am where you insert this"
+    },
+    "priority": {
+      "clue": "I am the level of this",
+      "strength": "strong",
+      "rank": 30,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am the level of this"
+    },
+    "signature": {
+      "clue": "I am unique like this",
+      "strength": "strong",
+      "rank": 31,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am unique like this"
+    },
+    "lock": {
+      "clue": "I secure this",
+      "strength": "strong",
+      "rank": 32,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I secure this"
+    },
+    "keycard": {
+      "clue": "I grant access like this",
+      "strength": "strong",
+      "rank": 33,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I grant access like this"
+    },
+    "shortcut": {
+      "clue": "I provide a quick way for this",
+      "strength": "strong",
+      "rank": 34,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I provide a quick way for this"
+    },
+    "latchkey": {
+      "clue": "I am used to open this",
+      "strength": "strong",
+      "rank": 35,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to open this"
+    },
+    "essential": {
+      "clue": "I am important for this",
+      "strength": "strong",
+      "rank": 36,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am important for this"
+    },
+    "phasis": {
+      "clue": "I emphasize this",
+      "strength": "strong",
+      "rank": 37,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I emphasize this"
+    },
+    "emphasis": {
+      "clue": "I stress this",
+      "strength": "strong",
+      "rank": 38,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I stress this"
+    },
+    "word": {
+      "clue": "I am made up of this",
+      "strength": "strong",
+      "rank": 39,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am made up of this"
+    },
+    "kip": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 40,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "ponent": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 41,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "tool": {
+      "clue": "I may be used with this",
+      "strength": "medium",
+      "rank": 42,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I may be used with this"
+    },
+    "attribute": {
+      "clue": "I describe this",
+      "strength": "strong",
+      "rank": 43,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I describe this"
+    },
+    "handle": {
+      "clue": "I am used to control this",
+      "strength": "strong",
+      "rank": 44,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am used to control this"
+    },
+    "option": {
+      "clue": "I provide a choice for this",
+      "strength": "strong",
+      "rank": 45,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I provide a choice for this"
+    },
+    "parameter": {
+      "clue": "I set the limits for this",
+      "strength": "strong",
+      "rank": 46,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I set the limits for this"
+    },
+    "keystroked": {
+      "clue": "I am past tense of typing this",
+      "strength": "medium",
+      "rank": 47,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am past tense of typing this"
+    },
+    "variable": {
+      "clue": "I can change in this",
+      "strength": "strong",
+      "rank": 48,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I can change in this"
+    },
+    "getter": {
+      "clue": "I retrieve this",
+      "strength": "strong",
+      "rank": 49,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I retrieve this"
+    },
+    "rekeyed": {
+      "clue": "I am past tense of re-doing this",
+      "strength": "medium",
+      "rank": 50,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am past tense of re-doing this"
+    },
+    "coded": {
+      "clue": "I am written in this language",
+      "strength": "strong",
+      "rank": 51,
+      "cached_at": "2025-09-21T18:57:38.770718+00:00",
+      "violations": [],
+      "original_clue": "I am written in this language"
+    },
+    "indexed": {
+      "clue": "I unlock the order of this list",
+      "strength": "strong",
+      "rank": 52,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I unlock the order of this list"
+    },
+    "critical": {
+      "clue": "I am essential in important situations",
+      "strength": "strong",
+      "rank": 53,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am essential in important situations"
+    },
+    "entry": {
+      "clue": "I grant access to this location",
+      "strength": "medium",
+      "rank": 54,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I grant access to this location"
+    },
+    "kick": {
+      "clue": "I am not related to this action",
+      "strength": "weak",
+      "rank": 55,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not related to this action"
+    },
+    "ingredient": {
+      "clue": "I am not part of this recipe",
+      "strength": "weak",
+      "rank": 56,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not part of this recipe"
+    },
+    "access": {
+      "clue": "I provide entry to restricted areas",
+      "strength": "strong",
+      "rank": 57,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I provide entry to restricted areas"
+    },
+    "item": {
+      "clue": "I can open the lock of this",
+      "strength": "medium",
+      "rank": 58,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can open the lock of this"
+    },
+    "note": {
+      "clue": "I can unlock the secrets of this",
+      "strength": "medium",
+      "rank": 59,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can unlock the secrets of this"
+    },
+    "helper": {
+      "clue": "I assist in finding the right solution",
+      "strength": "strong",
+      "rank": 60,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I assist in finding the right solution"
+    },
+    "prime": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 61,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "marker": {
+      "clue": "I am not used for writing",
+      "strength": "weak",
+      "rank": 62,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not used for writing"
+    },
+    "password": {
+      "clue": "I secure this secret combination",
+      "strength": "strong",
+      "rank": 63,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I secure this secret combination"
+    },
+    "definition": {
+      "clue": "I clarify the meaning of this",
+      "strength": "strong",
+      "rank": 64,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I clarify the meaning of this"
+    },
+    "credential": {
+      "clue": "I grant access based on this",
+      "strength": "strong",
+      "rank": 65,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I grant access based on this"
+    },
+    "keep": {
+      "clue": "I safeguard important things",
+      "strength": "strong",
+      "rank": 66,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I safeguard important things"
+    },
+    "symbol": {
+      "clue": "I am not a representation of this",
+      "strength": "weak",
+      "rank": 67,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not a representation of this"
+    },
+    "kit": {
+      "clue": "I can unlock what's inside this",
+      "strength": "medium",
+      "rank": 68,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can unlock what's inside this"
+    },
+    "predicate": {
+      "clue": "I am not related to this statement",
+      "strength": "weak",
+      "rank": 69,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not related to this statement"
+    },
+    "feature": {
+      "clue": "I unlock the abilities of this",
+      "strength": "strong",
+      "rank": 70,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I unlock the abilities of this"
+    },
+    "secret": {
+      "clue": "I secure this hidden information",
+      "strength": "strong",
+      "rank": 71,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I secure this hidden information"
+    },
+    "keystroking": {
+      "clue": "I am not involved in typing",
+      "strength": "weak",
+      "rank": 72,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not involved in typing"
+    },
+    "identity": {
+      "clue": "I unlock the true self of this",
+      "strength": "strong",
+      "rank": 73,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I unlock the true self of this"
+    },
+    "card": {
+      "clue": "I can open the lock of this",
+      "strength": "medium",
+      "rank": 74,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can open the lock of this"
+    },
+    "entity": {
+      "clue": "I am not part of this existence",
+      "strength": "weak",
+      "rank": 75,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not part of this existence"
+    },
+    "setting": {
+      "clue": "I can adjust the conditions of this",
+      "strength": "medium",
+      "rank": 76,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can adjust the conditions of this"
+    },
+    "kind": {
+      "clue": "I am not a category of this",
+      "strength": "weak",
+      "rank": 77,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not a category of this"
+    },
+    "button": {
+      "clue": "I can be pressed unlike this",
+      "strength": "medium",
+      "rank": 78,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can be pressed unlike this"
+    },
+    "identification": {
+      "clue": "I verify the identity of this",
+      "strength": "strong",
+      "rank": 79,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I verify the identity of this"
+    },
+    "turnkey": {
+      "clue": "I can open all doors easily",
+      "strength": "strong",
+      "rank": 80,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can open all doors easily"
+    },
+    "identify": {
+      "clue": "I can recognize the nature of this",
+      "strength": "strong",
+      "rank": 81,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can recognize the nature of this"
+    },
+    "hid": {
+      "clue": "I reveal rather than conceal like this",
+      "strength": "medium",
+      "rank": 82,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I reveal rather than conceal like this"
+    },
+    "keeper": {
+      "clue": "I safeguard valuable possessions",
+      "strength": "strong",
+      "rank": 83,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I safeguard valuable possessions"
+    },
+    "rekeying": {
+      "clue": "I change the locks like this process",
+      "strength": "strong",
+      "rank": 84,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I change the locks like this process"
+    },
+    "property": {
+      "clue": "I can unlock the ownership of this",
+      "strength": "strong",
+      "rank": 85,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I can unlock the ownership of this"
+    },
+    "input": {
+      "clue": "I process the data of this",
+      "strength": "strong",
+      "rank": 86,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I process the data of this"
+    },
+    "method": {
+      "clue": "I unlock the steps of this process",
+      "strength": "strong",
+      "rank": 87,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I unlock the steps of this process"
+    },
+    "dex": {
+      "clue": "I am not related to this index",
+      "strength": "weak",
+      "rank": 88,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not related to this index"
+    },
+    "directive": {
+      "clue": "I provide instructions unlike this",
+      "strength": "medium",
+      "rank": 89,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I provide instructions unlike this"
+    },
+    "kept": {
+      "clue": "I secure rather than reveal like this",
+      "strength": "medium",
+      "rank": 90,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I secure rather than reveal like this"
+    },
+    "descriptor": {
+      "clue": "I define the characteristics of this",
+      "strength": "strong",
+      "rank": 91,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I define the characteristics of this"
+    },
+    "criteria": {
+      "clue": "I set the standards for this",
+      "strength": "strong",
+      "rank": 92,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I set the standards for this"
+    },
+    "default": {
+      "clue": "I am the standard when all else fails",
+      "strength": "strong",
+      "rank": 93,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am the standard when all else fails"
+    },
+    "check": {
+      "clue": "I verify the correctness of this",
+      "strength": "strong",
+      "rank": 94,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I verify the correctness of this"
+    },
+    "locking": {
+      "clue": "I secure rather than open like this",
+      "strength": "medium",
+      "rank": 95,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I secure rather than open like this"
+    },
+    "factor": {
+      "clue": "I contribute to the equation of this",
+      "strength": "strong",
+      "rank": 96,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I contribute to the equation of this"
+    },
+    "case": {
+      "clue": "I hold the solution to this",
+      "strength": "strong",
+      "rank": 97,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I hold the solution to this"
+    },
+    "killer": {
+      "clue": "I am not associated with this act",
+      "strength": "weak",
+      "rank": 98,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not associated with this act"
+    },
+    "ketone": {
+      "clue": "I am not a chemical compound",
+      "strength": "weak",
+      "rank": 99,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not a chemical compound"
+    },
+    "quick": {
+      "clue": "I provide fast solutions unlike this",
+      "strength": "medium",
+      "rank": 100,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I provide fast solutions unlike this"
+    },
+    "keypunch": {
+      "clue": "I am not used for punching holes",
+      "strength": "weak",
+      "rank": 101,
+      "cached_at": "2025-09-21T18:57:47.966097+00:00",
+      "violations": [],
+      "original_clue": "I am not used for punching holes"
+    },
+    "rekeyboard": {
+      "clue": "Related to me for typing purposes",
+      "strength": "strong",
+      "rank": 102,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "Related to me for typing purposes"
+    },
+    "kid": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 103,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "locker": {
+      "clue": "I secure what's inside this storage",
+      "strength": "strong",
+      "rank": 104,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I secure what's inside this storage"
+    },
+    "unlock": {
+      "clue": "I do the opposite of this action",
+      "strength": "strong",
+      "rank": 105,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I do the opposite of this action"
+    },
+    "badge": {
+      "clue": "I can unlock doors, not this",
+      "strength": "medium",
+      "rank": 106,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock doors, not this"
+    },
+    "qwerty": {
+      "clue": "I am part of this layout",
+      "strength": "medium",
+      "rank": 107,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am part of this layout"
+    },
+    "locked": {
+      "clue": "I can make things become this",
+      "strength": "medium",
+      "rank": 108,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can make things become this"
+    },
+    "nickname": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 109,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "ax": {
+      "clue": "I am not used for chopping",
+      "strength": "weak",
+      "rank": 110,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not used for chopping"
+    },
+    "bonus": {
+      "clue": "I can unlock extras, not this",
+      "strength": "weak",
+      "rank": 111,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock extras, not this"
+    },
+    "prompt": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 112,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "keyboarded": {
+      "clue": "I am used in this action",
+      "strength": "strong",
+      "rank": 113,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am used in this action"
+    },
+    "benchmark": {
+      "clue": "I can be a standard for comparison",
+      "strength": "medium",
+      "rank": 114,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can be a standard for comparison"
+    },
+    "knob": {
+      "clue": "I am not turned like this",
+      "strength": "weak",
+      "rank": 115,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not turned like this"
+    },
+    "kin": {
+      "clue": "Family relation, not like me",
+      "strength": "medium",
+      "rank": 116,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "Family relation, not like me"
+    },
+    "wert": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 117,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "refix": {
+      "clue": "I am not used to fix things",
+      "strength": "weak",
+      "rank": 118,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not used to fix things"
+    },
+    "path": {
+      "clue": "I can open the way, not this",
+      "strength": "medium",
+      "rank": 119,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can open the way, not this"
+    },
+    "catchword": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 120,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "sign": {
+      "clue": "I can indicate things, not this",
+      "strength": "medium",
+      "rank": 121,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can indicate things, not this"
+    },
+    "keeping": {
+      "clue": "I am not about holding things",
+      "strength": "weak",
+      "rank": 122,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not about holding things"
+    },
+    "karabiner": {
+      "clue": "I am not used for climbing",
+      "strength": "weak",
+      "rank": 123,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not used for climbing"
+    },
+    "hallmark": {
+      "clue": "I am not a stamp of approval",
+      "strength": "weak",
+      "rank": 124,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a stamp of approval"
+    },
+    "kep": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 125,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "indicator": {
+      "clue": "I can show status, not this",
+      "strength": "medium",
+      "rank": 126,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can show status, not this"
+    },
+    "padlock": {
+      "clue": "I secure like this, but smaller",
+      "strength": "medium",
+      "rank": 127,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I secure like this, but smaller"
+    },
+    "constant": {
+      "clue": "I am not a fixed value",
+      "strength": "weak",
+      "rank": 128,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a fixed value"
+    },
+    "switch": {
+      "clue": "I can activate things, not this",
+      "strength": "medium",
+      "rank": 129,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can activate things, not this"
+    },
+    "bold": {
+      "clue": "I am not about text style",
+      "strength": "weak",
+      "rank": 130,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not about text style"
+    },
+    "codebook": {
+      "clue": "I can unlock secrets, not this",
+      "strength": "medium",
+      "rank": 131,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock secrets, not this"
+    },
+    "skill": {
+      "clue": "I can be mastered, not this",
+      "strength": "medium",
+      "rank": 132,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can be mastered, not this"
+    },
+    "quality": {
+      "clue": "I am not a measure of this",
+      "strength": "weak",
+      "rank": 133,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a measure of this"
+    },
+    "self": {
+      "clue": "I am not about individuals",
+      "strength": "weak",
+      "rank": 134,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not about individuals"
+    },
+    "keypunched": {
+      "clue": "I am used in this action",
+      "strength": "strong",
+      "rank": 135,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am used in this action"
+    },
+    "set": {
+      "clue": "I can be a collection, not this",
+      "strength": "medium",
+      "rank": 136,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can be a collection, not this"
+    },
+    "signal": {
+      "clue": "I can transmit information, not this",
+      "strength": "medium",
+      "rank": 137,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can transmit information, not this"
+    },
+    "edge": {
+      "clue": "I am not a border or brink",
+      "strength": "weak",
+      "rank": 138,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a border or brink"
+    },
+    "asset": {
+      "clue": "I can be valuable, not this",
+      "strength": "medium",
+      "rank": 139,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can be valuable, not this"
+    },
+    "device": {
+      "clue": "I can unlock things, not this",
+      "strength": "medium",
+      "rank": 140,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock things, not this"
+    },
+    "thesis": {
+      "clue": "I am not a scholarly document",
+      "strength": "weak",
+      "rank": 141,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a scholarly document"
+    },
+    "nock": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 142,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "auto": {
+      "clue": "I am not an automatic machine",
+      "strength": "weak",
+      "rank": 143,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not an automatic machine"
+    },
+    "logic": {
+      "clue": "I can be reasoned, not this",
+      "strength": "medium",
+      "rank": 144,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can be reasoned, not this"
+    },
+    "score": {
+      "clue": "I am not about points or music",
+      "strength": "weak",
+      "rank": 145,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not about points or music"
+    },
+    "tical": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 146,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "finger": {
+      "clue": "I can unlock with a touch, not this",
+      "strength": "medium",
+      "rank": 147,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock with a touch, not this"
+    },
+    "field": {
+      "clue": "I am not a cultivated area",
+      "strength": "weak",
+      "rank": 148,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I am not a cultivated area"
+    },
+    "lookup": {
+      "clue": "I can search for information, not this",
+      "strength": "medium",
+      "rank": 149,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can search for information, not this"
+    },
+    "door": {
+      "clue": "I can unlock this to open",
+      "strength": "medium",
+      "rank": 150,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I can unlock this to open"
+    },
+    "kea": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 151,
+      "cached_at": "2025-09-21T18:57:55.913773+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    }
+  }
+}

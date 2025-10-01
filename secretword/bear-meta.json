@@ -1,0 +1,12 @@
+{
+  "secret_word": "bear",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Bears are typically considered wild animals, living in forests and other natural habitats rather than being domesticated or living in captivity.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Bears are typically considered wild animals, living in forests and other natural habitats rather than being domesticated or living in captivity."
+  },
+  "generated_timestamp": "2025-09-21T22:35:55.730758Z",
+  "openai_model": "gpt-3.5-turbo"
+}

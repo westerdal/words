@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "secret_word": "jump",
+    "created_at": "2025-09-21T13:28:55.460896+00:00",
+    "last_updated": "2025-09-21T18:46:21.161513+00:00",
+    "total_cached_clues": 150,
+    "api_calls_saved": 0,
+    "cache_version": "1.0",
+    "prompt_hash": "d86b20a1d74a6f27",
+    "model_used": "gpt-3.5-turbo",
+    "max_tokens": 2000,
+    "temperature": 0.7,
+    "processing_stats": {
+      "total_words_processed": 0,
+      "words_from_cache": 0,
+      "words_from_api": 0,
+      "violation_rate": 0.0,
+      "most_common_violations": []
+    }
+  },
+  "clues": {
+    "umping": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 2,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 3,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumping": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 4,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumpy": {
+      "clue": "I am not as energetic as this",
+      "strength": "medium",
+      "rank": 5,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I am not as energetic as this"
+    },
+    "leap": {
+      "clue": "I can't do this without help",
+      "strength": "weak",
+      "rank": 6,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't do this without help"
+    },
+    "skip": {
+      "clue": "I don't move like this at all",
+      "strength": "weak",
+      "rank": 7,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't move like this at all"
+    },
+    "outjump": {
+      "clue": "I can't surpass this in height",
+      "strength": "weak",
+      "rank": 8,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't surpass this in height"
+    },
+    "bounce": {
+      "clue": "I can't bounce like this at all",
+      "strength": "weak",
+      "rank": 9,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't bounce like this at all"
+    },
+    "springe": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 10,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "leapt": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 11,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "ump": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 12,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumpoff": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 13,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "leaped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 14,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumper": {
+      "clue": "I am not as agile as this",
+      "strength": "medium",
+      "rank": 15,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I am not as agile as this"
+    },
+    "hopping": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 16,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "leaper": {
+      "clue": "I can't leap like this gracefully",
+      "strength": "weak",
+      "rank": 17,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't leap like this gracefully"
+    },
+    "leaping": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 18,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "outjumping": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 19,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "hop": {
+      "clue": "I don't hop around like this",
+      "strength": "weak",
+      "rank": 20,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't hop around like this"
+    },
+    "sprang": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 21,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "outjumped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 22,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "hopped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 23,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumpily": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 24,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jumpiest": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 25,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "springeing": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 26,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "sprung": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 27,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "leapfrog": {
+      "clue": "I can't play leapfrog like this",
+      "strength": "weak",
+      "rank": 28,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't play leapfrog like this"
+    },
+    "showjumping": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 29,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "step": {
+      "clue": "I don't step like this methodically",
+      "strength": "weak",
+      "rank": 30,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't step like this methodically"
+    },
+    "jauping": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 31,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "move": {
+      "clue": "I move differently than this",
+      "strength": "medium",
+      "rank": 32,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I move differently than this"
+    },
+    "run": {
+      "clue": "I don't run like this swiftly",
+      "strength": "weak",
+      "rank": 33,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't run like this swiftly"
+    },
+    "jumpier": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 34,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "jounce": {
+      "clue": "I can't jounce like this rhythmically",
+      "strength": "weak",
+      "rank": 35,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't jounce like this rhythmically"
+    },
+    "gap": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 36,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "skipping": {
+      "clue": "I don't skip around like this",
+      "strength": "weak",
+      "rank": 37,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't skip around like this"
+    },
+    "leapfrogged": {
+      "clue": "I can't play leapfrog like this",
+      "strength": "weak",
+      "rank": 38,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't play leapfrog like this"
+    },
+    "saltation": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 39,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "segue": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 40,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jouncy": {
+      "clue": "I am not as bouncy as this",
+      "strength": "medium",
+      "rank": 41,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I am not as bouncy as this"
+    },
+    "overleap": {
+      "clue": "I can't overleap obstacles like this",
+      "strength": "weak",
+      "rank": 42,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't overleap obstacles like this"
+    },
+    "rocket": {
+      "clue": "I can't rocket like this upwards",
+      "strength": "weak",
+      "rank": 43,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't rocket like this upwards"
+    },
+    "kick": {
+      "clue": "I can't kick like this forcefully",
+      "strength": "weak",
+      "rank": 44,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't kick like this forcefully"
+    },
+    "lope": {
+      "clue": "I don't lope gracefully like this",
+      "strength": "weak",
+      "rank": 45,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't lope gracefully like this"
+    },
+    "escape": {
+      "clue": "I can't escape like this skillfully",
+      "strength": "weak",
+      "rank": 46,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I can't escape like this skillfully"
+    },
+    "join": {
+      "clue": "I don't join things like this",
+      "strength": "weak",
+      "rank": 47,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't join things like this"
+    },
+    "walk": {
+      "clue": "I don't walk like this leisurely",
+      "strength": "weak",
+      "rank": 48,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I don't walk like this leisurely"
+    },
+    "jaunced": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 49,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "jauped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 50,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "hoppling": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 51,
+      "cached_at": "2025-09-21T18:46:07.061508+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "trampoline": {
+      "clue": "I am a platform for bouncing",
+      "strength": "strong",
+      "rank": 52,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am a platform for bouncing"
+    },
+    "fly": {
+      "clue": "I can't fly like this creature",
+      "strength": "strong",
+      "rank": 53,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I can't fly like this creature"
+    },
+    "saltatory": {
+      "clue": "I move in a different way",
+      "strength": "strong",
+      "rank": 54,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I move in a different way"
+    },
+    "upleaping": {
+      "clue": "I am not constantly leaping up",
+      "strength": "strong",
+      "rank": 55,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not constantly leaping up"
+    },
+    "umped": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 56,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "overleapt": {
+      "clue": "I cannot leap over things",
+      "strength": "strong",
+      "rank": 57,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot leap over things"
+    },
+    "hoppier": {
+      "clue": "I do not hop like this",
+      "strength": "strong",
+      "rank": 58,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not hop like this"
+    },
+    "jink": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 59,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "springed": {
+      "clue": "I do not spring like this",
+      "strength": "strong",
+      "rank": 60,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not spring like this"
+    },
+    "jumpiness": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 61,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "outleap": {
+      "clue": "I cannot leap out of situations",
+      "strength": "strong",
+      "rank": 62,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot leap out of situations"
+    },
+    "jauncing": {
+      "clue": "I do not jaunce around",
+      "strength": "strong",
+      "rank": 63,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not jaunce around"
+    },
+    "lop": {
+      "clue": "I am not a type of leap",
+      "strength": "strong",
+      "rank": 64,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not a type of leap"
+    },
+    "break": {
+      "clue": "I cannot break like this word",
+      "strength": "strong",
+      "rank": 65,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot break like this word"
+    },
+    "skipped": {
+      "clue": "I do not skip like this action",
+      "strength": "strong",
+      "rank": 66,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not skip like this action"
+    },
+    "upleaped": {
+      "clue": "I am not constantly leaping up",
+      "strength": "strong",
+      "rank": 67,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not constantly leaping up"
+    },
+    "outleapt": {
+      "clue": "I cannot leap out of situations",
+      "strength": "strong",
+      "rank": 68,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot leap out of situations"
+    },
+    "switch": {
+      "clue": "I do not switch positions quickly",
+      "strength": "strong",
+      "rank": 69,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not switch positions quickly"
+    },
+    "upleapt": {
+      "clue": "Super close, sizzling hot",
+      "strength": "medium",
+      "rank": 70,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "dive": {
+      "clue": "I do not dive like this action",
+      "strength": "strong",
+      "rank": 71,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not dive like this action"
+    },
+    "rise": {
+      "clue": "I do not rise like this word",
+      "strength": "strong",
+      "rank": 72,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not rise like this word"
+    },
+    "jounced": {
+      "clue": "I am not constantly jouncing around",
+      "strength": "strong",
+      "rank": 73,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not constantly jouncing around"
+    },
+    "grow": {
+      "clue": "I do not grow like this word",
+      "strength": "strong",
+      "rank": 74,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not grow like this word"
+    },
+    "start": {
+      "clue": "I do not start like this word",
+      "strength": "strong",
+      "rank": 75,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not start like this word"
+    },
+    "depart": {
+      "clue": "I do not depart like this action",
+      "strength": "strong",
+      "rank": 76,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not depart like this action"
+    },
+    "jumpsuit": {
+      "clue": "I am not a type of suit",
+      "strength": "strong",
+      "rank": 77,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not a type of suit"
+    },
+    "skydive": {
+      "clue": "I do not skydive like this",
+      "strength": "strong",
+      "rank": 78,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not skydive like this"
+    },
+    "ajar": {
+      "clue": "I am not a door left ajar",
+      "strength": "strong",
+      "rank": 79,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not a door left ajar"
+    },
+    "overleaped": {
+      "clue": "I cannot leap over things",
+      "strength": "strong",
+      "rank": 80,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot leap over things"
+    },
+    "quit": {
+      "clue": "I do not quit like this word",
+      "strength": "strong",
+      "rank": 81,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not quit like this word"
+    },
+    "transition": {
+      "clue": "I do not transition like this",
+      "strength": "strong",
+      "rank": 82,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not transition like this"
+    },
+    "bouncing": {
+      "clue": "I am like this, but not constant",
+      "strength": "medium",
+      "rank": 83,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am like this, but not constant"
+    },
+    "cope": {
+      "clue": "I do not cope like this word",
+      "strength": "strong",
+      "rank": 84,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not cope like this word"
+    },
+    "bouncy": {
+      "clue": "I am like this, but not constant",
+      "strength": "medium",
+      "rank": 85,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am like this, but not constant"
+    },
+    "drop": {
+      "clue": "I do not drop like this word",
+      "strength": "strong",
+      "rank": 86,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not drop like this word"
+    },
+    "roup": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 87,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "climb": {
+      "clue": "I do not climb like this action",
+      "strength": "strong",
+      "rank": 88,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not climb like this action"
+    },
+    "pounce": {
+      "clue": "I do not pounce like this action",
+      "strength": "strong",
+      "rank": 89,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not pounce like this action"
+    },
+    "saltatorial": {
+      "clue": "I am not a type of movement",
+      "strength": "strong",
+      "rank": 90,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not a type of movement"
+    },
+    "escaped": {
+      "clue": "I do not escape like this action",
+      "strength": "strong",
+      "rank": 91,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not escape like this action"
+    },
+    "raise": {
+      "clue": "I do not raise like this word",
+      "strength": "strong",
+      "rank": 92,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not raise like this word"
+    },
+    "joggle": {
+      "clue": "I do not joggle like this action",
+      "strength": "strong",
+      "rank": 93,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not joggle like this action"
+    },
+    "overleaping": {
+      "clue": "I cannot leap over things",
+      "strength": "strong",
+      "rank": 94,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I cannot leap over things"
+    },
+    "jog": {
+      "clue": "I do not jog like this action",
+      "strength": "strong",
+      "rank": 95,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not jog like this action"
+    },
+    "advance": {
+      "clue": "I do not advance like this word",
+      "strength": "strong",
+      "rank": 96,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not advance like this word"
+    },
+    "weep": {
+      "clue": "I do not weep like this action",
+      "strength": "strong",
+      "rank": 97,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not weep like this action"
+    },
+    "leapfrogging": {
+      "clue": "I am not constantly leapfrogging",
+      "strength": "strong",
+      "rank": 98,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am not constantly leapfrogging"
+    },
+    "jimp": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 99,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "running": {
+      "clue": "I am like this, but not constant",
+      "strength": "medium",
+      "rank": 100,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I am like this, but not constant"
+    },
+    "shift": {
+      "clue": "I do not shift like this word",
+      "strength": "strong",
+      "rank": 101,
+      "cached_at": "2025-09-21T18:46:13.109219+00:00",
+      "violations": [],
+      "original_clue": "I do not shift like this word"
+    },
+    "shoot": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 102,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "junction": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 103,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "bungee": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 104,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "lapping": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 105,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "fight": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 106,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "rebound": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 107,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "trip": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 108,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "frog": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 109,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "hedgehop": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 110,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "prance": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 111,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "waitress": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 112,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "go": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 113,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "jauk": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 114,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "traction": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 115,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "pickoff": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 116,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "yield": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 117,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "exit": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 118,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "entrechat": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 119,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "joint": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 120,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "bounced": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 121,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "boot": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 122,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "ledge": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 123,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "plunge": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 124,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "push": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 125,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "throw": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 126,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "escaping": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 127,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "skitter": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 128,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "louping": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 129,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "shot": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 130,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "upsprang": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 131,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "jouncing": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 132,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "jimpy": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 133,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "beleaped": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 134,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "flip": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 135,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "gambade": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 136,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "dance": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 137,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "mediate": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 138,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "soar": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 139,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "spring": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 140,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "bounding": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 141,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "hedgehopped": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 142,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "boost": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 143,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "vary": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 144,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "movement": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 145,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "away": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 146,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "skyrocket": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 147,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "skippering": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 148,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "leave": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 149,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "jet": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 150,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "countdown": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 151,
+      "cached_at": "2025-09-21T18:46:21.161513+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    }
+  }
+}

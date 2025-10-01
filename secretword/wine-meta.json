@@ -1,0 +1,12 @@
+{
+  "secret_word": "wine",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Wine is a type of alcoholic beverage made from fermented grapes, placing it in the category of food.",
+    "confidence": "high",
+    "raw_response": "Category: Food\nReasoning: Wine is a type of alcoholic beverage made from fermented grapes, placing it in the category of food."
+  },
+  "generated_timestamp": "2025-09-21T22:48:59.286670Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "love",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Love' is an emotion that represents deep affection, care, and attachment towards someone or something.",
+    "confidence": "high",
+    "raw_response": "Category: Emotion\nReasoning: 'Love' is an emotion that represents deep affection, care, and attachment towards someone or something."
+  },
+  "generated_timestamp": "2025-09-21T22:43:24.358542Z",
+  "openai_model": "gpt-3.5-turbo"
+}

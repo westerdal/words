@@ -1,0 +1,12 @@
+{
+  "secret_word": "wood",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Wood' is derived from trees, which are classified as plants.",
+    "confidence": "high",
+    "raw_response": "Category: Plant\nReasoning: 'Wood' is derived from trees, which are classified as plants."
+  },
+  "generated_timestamp": "2025-09-21T22:49:11.240977Z",
+  "openai_model": "gpt-3.5-turbo"
+}

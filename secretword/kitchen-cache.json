@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "secret_word": "kitchen",
+    "created_at": "2025-09-21T13:29:09.267643+00:00",
+    "last_updated": "2025-09-21T19:00:03.834657+00:00",
+    "total_cached_clues": 150,
+    "api_calls_saved": 0,
+    "cache_version": "1.0",
+    "prompt_hash": "c9986c10eedfd18b",
+    "model_used": "gpt-3.5-turbo",
+    "max_tokens": 2000,
+    "temperature": 0.7,
+    "processing_stats": {
+      "total_words_processed": 0,
+      "words_from_cache": 0,
+      "words_from_api": 0,
+      "violation_rate": 0.0,
+      "most_common_violations": []
+    }
+  },
+  "clues": {
+    "kitchenette": {
+      "clue": "I am a smaller version of this",
+      "strength": "medium",
+      "rank": 2,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a smaller version of this"
+    },
+    "kitchenware": {
+      "clue": "I hold and serve items like this",
+      "strength": "strong",
+      "rank": 3,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I hold and serve items like this"
+    },
+    "cuisine": {
+      "clue": "I am the art of preparing this",
+      "strength": "weak",
+      "rank": 4,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am the art of preparing this"
+    },
+    "cookhouse": {
+      "clue": "I am another name for this",
+      "strength": "strong",
+      "rank": 5,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am another name for this"
+    },
+    "bathroom": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 6,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "cookshop": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 7,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "bedroom": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 8,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "pantry": {
+      "clue": "I store ingredients like this",
+      "strength": "strong",
+      "rank": 9,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I store ingredients like this"
+    },
+    "cooking": {
+      "clue": "I am what happens in me",
+      "strength": "strong",
+      "rank": 10,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am what happens in me"
+    },
+    "stove": {
+      "clue": "I have a cooking appliance like this",
+      "strength": "strong",
+      "rank": 11,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have a cooking appliance like this"
+    },
+    "cookery": {
+      "clue": "I am the art of this",
+      "strength": "weak",
+      "rank": 12,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am the art of this"
+    },
+    "scullery": {
+      "clue": "I am a separate room like this",
+      "strength": "medium",
+      "rank": 13,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a separate room like this"
+    },
+    "cupboard": {
+      "clue": "I store items like this",
+      "strength": "strong",
+      "rank": 14,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I store items like this"
+    },
+    "garden": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 15,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "fridge": {
+      "clue": "I keep items cold like this",
+      "strength": "strong",
+      "rank": 16,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I keep items cold like this"
+    },
+    "cookware": {
+      "clue": "I hold pots and pans like this",
+      "strength": "strong",
+      "rank": 17,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I hold pots and pans like this"
+    },
+    "lunchroom": {
+      "clue": "I am where you eat like this",
+      "strength": "medium",
+      "rank": 18,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you eat like this"
+    },
+    "cabinet": {
+      "clue": "I store items like this",
+      "strength": "strong",
+      "rank": 19,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I store items like this"
+    },
+    "oven": {
+      "clue": "I have a cooking appliance like this",
+      "strength": "strong",
+      "rank": 20,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have a cooking appliance like this"
+    },
+    "dining": {
+      "clue": "I am where you eat like this",
+      "strength": "medium",
+      "rank": 21,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you eat like this"
+    },
+    "storeroom": {
+      "clue": "I store items like this",
+      "strength": "strong",
+      "rank": 22,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I store items like this"
+    },
+    "cookstove": {
+      "clue": "I am another name for this",
+      "strength": "strong",
+      "rank": 23,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am another name for this"
+    },
+    "larder": {
+      "clue": "I store food like this",
+      "strength": "strong",
+      "rank": 24,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I store food like this"
+    },
+    "room": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 25,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "cooker": {
+      "clue": "I have a cooking appliance like this",
+      "strength": "strong",
+      "rank": 26,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have a cooking appliance like this"
+    },
+    "restaurant": {
+      "clue": "I am where you eat like this",
+      "strength": "medium",
+      "rank": 27,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you eat like this"
+    },
+    "garage": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 28,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "cabinetry": {
+      "clue": "I am made of wood like this",
+      "strength": "strong",
+      "rank": 29,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am made of wood like this"
+    },
+    "workroom": {
+      "clue": "I am a type of room like this",
+      "strength": "medium",
+      "rank": 30,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a type of room like this"
+    },
+    "refrigerator": {
+      "clue": "I keep items cold like this",
+      "strength": "strong",
+      "rank": 31,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I keep items cold like this"
+    },
+    "classroom": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 32,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "kettle": {
+      "clue": "I boil water like this",
+      "strength": "strong",
+      "rank": 33,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I boil water like this"
+    },
+    "bakery": {
+      "clue": "I make and sell baked goods like this",
+      "strength": "strong",
+      "rank": 34,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I make and sell baked goods like this"
+    },
+    "dishwasher": {
+      "clue": "I clean dishes like this",
+      "strength": "strong",
+      "rank": 35,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I clean dishes like this"
+    },
+    "laboratory": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 36,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "home": {
+      "clue": "I am a part of this",
+      "strength": "medium",
+      "rank": 37,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a part of this"
+    },
+    "parlour": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 38,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "dinette": {
+      "clue": "I am where you eat like this",
+      "strength": "medium",
+      "rank": 39,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you eat like this"
+    },
+    "cooktop": {
+      "clue": "I have a cooking appliance like this",
+      "strength": "strong",
+      "rank": 40,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have a cooking appliance like this"
+    },
+    "salon": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 41,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "toilet": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 42,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "cabin": {
+      "clue": "I am a small room like this",
+      "strength": "medium",
+      "rank": 43,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a small room like this"
+    },
+    "laundry": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 44,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "fireplace": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 45,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "skillet": {
+      "clue": "I am a type of cooking pan",
+      "strength": "medium",
+      "rank": 46,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am a type of cooking pan"
+    },
+    "galley": {
+      "clue": "Super close, sizzling hot",
+      "strength": "strong",
+      "rank": 47,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "Super close, sizzling hot"
+    },
+    "countertop": {
+      "clue": "I am the surface of this",
+      "strength": "medium",
+      "rank": 48,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am the surface of this"
+    },
+    "grillroom": {
+      "clue": "I am where you cook on grills",
+      "strength": "medium",
+      "rank": 49,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you cook on grills"
+    },
+    "cafeteria": {
+      "clue": "I am where you eat like this",
+      "strength": "medium",
+      "rank": 50,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I am where you eat like this"
+    },
+    "playroom": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 51,
+      "cached_at": "2025-09-21T18:59:48.211193+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "chef": {
+      "clue": "I am the heart of this",
+      "strength": "strong",
+      "rank": 52,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am the heart of this"
+    },
+    "interior": {
+      "clue": "I am part of this",
+      "strength": "medium",
+      "rank": 53,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am part of this"
+    },
+    "cellar": {
+      "clue": "I store things like this",
+      "strength": "strong",
+      "rank": 54,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I store things like this"
+    },
+    "microwave": {
+      "clue": "I heat faster than this",
+      "strength": "weak",
+      "rank": 55,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I heat faster than this"
+    },
+    "wok": {
+      "clue": "I cook differently from this",
+      "strength": "strong",
+      "rank": 56,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I cook differently from this"
+    },
+    "freezer": {
+      "clue": "I freeze like this",
+      "strength": "strong",
+      "rank": 57,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I freeze like this"
+    },
+    "closet": {
+      "clue": "I keep things hidden like this",
+      "strength": "medium",
+      "rank": 58,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I keep things hidden like this"
+    },
+    "backroom": {
+      "clue": "I have a hidden area like this",
+      "strength": "medium",
+      "rank": 59,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I have a hidden area like this"
+    },
+    "cookbook": {
+      "clue": "I provide recipes like this",
+      "strength": "medium",
+      "rank": 60,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I provide recipes like this"
+    },
+    "stillroom": {
+      "clue": "I am not related to this",
+      "strength": "weak",
+      "rank": 61,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not related to this"
+    },
+    "washroom": {
+      "clue": "I clean differently from this",
+      "strength": "strong",
+      "rank": 62,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I clean differently from this"
+    },
+    "backyard": {
+      "clue": "I am not outside like this",
+      "strength": "weak",
+      "rank": 63,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not outside like this"
+    },
+    "cafe": {
+      "clue": "I serve food like this",
+      "strength": "strong",
+      "rank": 64,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I serve food like this"
+    },
+    "culinary": {
+      "clue": "I am related to this art",
+      "strength": "strong",
+      "rank": 65,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am related to this art"
+    },
+    "toolshed": {
+      "clue": "I store tools differently from this",
+      "strength": "strong",
+      "rank": 66,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I store tools differently from this"
+    },
+    "kiln": {
+      "clue": "I am not used for pottery like this",
+      "strength": "weak",
+      "rank": 67,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not used for pottery like this"
+    },
+    "basement": {
+      "clue": "I am below like this",
+      "strength": "strong",
+      "rank": 68,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am below like this"
+    },
+    "cutlery": {
+      "clue": "I use items like this",
+      "strength": "strong",
+      "rank": 69,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I use items like this"
+    },
+    "kuchen": {
+      "clue": "I am not a type of cake like this",
+      "strength": "weak",
+      "rank": 70,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a type of cake like this"
+    },
+    "hallway": {
+      "clue": "I connect rooms like this",
+      "strength": "strong",
+      "rank": 71,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I connect rooms like this"
+    },
+    "furniture": {
+      "clue": "I have items like this",
+      "strength": "strong",
+      "rank": 72,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I have items like this"
+    },
+    "kidney": {
+      "clue": "I am not an organ like this",
+      "strength": "weak",
+      "rank": 73,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not an organ like this"
+    },
+    "indoor": {
+      "clue": "I am inside like this",
+      "strength": "strong",
+      "rank": 74,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am inside like this"
+    },
+    "cabinetwork": {
+      "clue": "I am made of wood like this",
+      "strength": "strong",
+      "rank": 75,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am made of wood like this"
+    },
+    "cook": {
+      "clue": "I am the action before this",
+      "strength": "strong",
+      "rank": 76,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am the action before this"
+    },
+    "cooked": {
+      "clue": "I am the result of this",
+      "strength": "strong",
+      "rank": 77,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am the result of this"
+    },
+    "canteen": {
+      "clue": "I provide food like this",
+      "strength": "strong",
+      "rank": 78,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I provide food like this"
+    },
+    "apartment": {
+      "clue": "I am not a living space like this",
+      "strength": "weak",
+      "rank": 79,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a living space like this"
+    },
+    "stockroom": {
+      "clue": "I store goods like this",
+      "strength": "strong",
+      "rank": 80,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I store goods like this"
+    },
+    "worktable": {
+      "clue": "I work like this",
+      "strength": "strong",
+      "rank": 81,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I work like this"
+    },
+    "attic": {
+      "clue": "I am above like this",
+      "strength": "strong",
+      "rank": 82,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am above like this"
+    },
+    "patio": {
+      "clue": "I am not outside like this",
+      "strength": "weak",
+      "rank": 83,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not outside like this"
+    },
+    "drawer": {
+      "clue": "I store items like this",
+      "strength": "strong",
+      "rank": 84,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I store items like this"
+    },
+    "lavatory": {
+      "clue": "I am not a bathroom like this",
+      "strength": "weak",
+      "rank": 85,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a bathroom like this"
+    },
+    "mudroom": {
+      "clue": "I am not for cleaning like this",
+      "strength": "weak",
+      "rank": 86,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not for cleaning like this"
+    },
+    "foyer": {
+      "clue": "I am an entrance like this",
+      "strength": "strong",
+      "rank": 87,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am an entrance like this"
+    },
+    "menu": {
+      "clue": "I list food like this",
+      "strength": "strong",
+      "rank": 88,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I list food like this"
+    },
+    "porch": {
+      "clue": "I am not outside like this",
+      "strength": "weak",
+      "rank": 89,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not outside like this"
+    },
+    "woodstove": {
+      "clue": "I am not a heating appliance like this",
+      "strength": "weak",
+      "rank": 90,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a heating appliance like this"
+    },
+    "dishware": {
+      "clue": "I serve food in this",
+      "strength": "strong",
+      "rank": 91,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I serve food in this"
+    },
+    "washer": {
+      "clue": "I clean differently from this",
+      "strength": "strong",
+      "rank": 92,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I clean differently from this"
+    },
+    "atelier": {
+      "clue": "I am not a workshop like this",
+      "strength": "weak",
+      "rank": 93,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a workshop like this"
+    },
+    "studio": {
+      "clue": "I am not an art space like this",
+      "strength": "weak",
+      "rank": 94,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not an art space like this"
+    },
+    "grill": {
+      "clue": "I cook differently from this",
+      "strength": "strong",
+      "rank": 95,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I cook differently from this"
+    },
+    "taverna": {
+      "clue": "I am not a type of restaurant like this",
+      "strength": "weak",
+      "rank": 96,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a type of restaurant like this"
+    },
+    "farmhouse": {
+      "clue": "I am not a rural home like this",
+      "strength": "weak",
+      "rank": 97,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a rural home like this"
+    },
+    "kiosk": {
+      "clue": "I am not a small booth like this",
+      "strength": "weak",
+      "rank": 98,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a small booth like this"
+    },
+    "cocinera": {
+      "clue": "I am not a cook like this",
+      "strength": "weak",
+      "rank": 99,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a cook like this"
+    },
+    "restroom": {
+      "clue": "I am not a bathroom like this",
+      "strength": "weak",
+      "rank": 100,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a bathroom like this"
+    },
+    "cottage": {
+      "clue": "I am not a small house like this",
+      "strength": "weak",
+      "rank": 101,
+      "cached_at": "2025-09-21T18:59:54.946166+00:00",
+      "violations": [],
+      "original_clue": "I am not a small house like this"
+    },
+    "housekeeping": {
+      "clue": "I am the heart of this task",
+      "strength": "strong",
+      "rank": 102,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am the heart of this task"
+    },
+    "kook": {
+      "clue": "I have no relation to this",
+      "strength": "weak",
+      "rank": 103,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I have no relation to this"
+    },
+    "yard": {
+      "clue": "I am inside, this is outside",
+      "strength": "weak",
+      "rank": 104,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am inside, this is outside"
+    },
+    "gym": {
+      "clue": "I have nothing to do with this",
+      "strength": "weak",
+      "rank": 105,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I have nothing to do with this"
+    },
+    "utensil": {
+      "clue": "I work with this in cooking",
+      "strength": "medium",
+      "rank": 106,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I work with this in cooking"
+    },
+    "facility": {
+      "clue": "I am a part of a larger one",
+      "strength": "medium",
+      "rank": 107,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am a part of a larger one"
+    },
+    "loft": {
+      "clue": "I am below, this is above",
+      "strength": "weak",
+      "rank": 108,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am below, this is above"
+    },
+    "baking": {
+      "clue": "I am where this happens",
+      "strength": "medium",
+      "rank": 109,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am where this happens"
+    },
+    "department": {
+      "clue": "I am not a part of this",
+      "strength": "weak",
+      "rank": 110,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a part of this"
+    },
+    "houseroom": {
+      "clue": "I am the whole, this part",
+      "strength": "medium",
+      "rank": 111,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am the whole, this part"
+    },
+    "butlery": {
+      "clue": "I am not related to this",
+      "strength": "weak",
+      "rank": 112,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not related to this"
+    },
+    "chicken": {
+      "clue": "I store this for cooking later",
+      "strength": "medium",
+      "rank": 113,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I store this for cooking later"
+    },
+    "cubicle": {
+      "clue": "I am not a divided space",
+      "strength": "weak",
+      "rank": 114,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a divided space"
+    },
+    "lounge": {
+      "clue": "I am not a relaxation area",
+      "strength": "weak",
+      "rank": 115,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a relaxation area"
+    },
+    "cockpit": {
+      "clue": "I am not a pilot's seat",
+      "strength": "weak",
+      "rank": 116,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a pilot's seat"
+    },
+    "couch": {
+      "clue": "I am not for sitting comfort",
+      "strength": "weak",
+      "rank": 117,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not for sitting comfort"
+    },
+    "appliance": {
+      "clue": "I am used with this in cooking",
+      "strength": "medium",
+      "rank": 118,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am used with this in cooking"
+    },
+    "balcony": {
+      "clue": "I am indoors, this is outdoors",
+      "strength": "weak",
+      "rank": 119,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am indoors, this is outdoors"
+    },
+    "washerwoman": {
+      "clue": "I clean what this person wears",
+      "strength": "medium",
+      "rank": 120,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I clean what this person wears"
+    },
+    "chamber": {
+      "clue": "I am a part of this",
+      "strength": "medium",
+      "rank": 121,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am a part of this"
+    },
+    "washhouse": {
+      "clue": "I am where this takes place",
+      "strength": "medium",
+      "rank": 122,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am where this takes place"
+    },
+    "backsplash": {
+      "clue": "I am behind, this is in front",
+      "strength": "weak",
+      "rank": 123,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am behind, this is in front"
+    },
+    "kithe": {
+      "clue": "I have no connection to this",
+      "strength": "weak",
+      "rank": 124,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I have no connection to this"
+    },
+    "cantina": {
+      "clue": "I am not a place for drinks",
+      "strength": "weak",
+      "rank": 125,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a place for drinks"
+    },
+    "coffeehouse": {
+      "clue": "I am not a place for coffee",
+      "strength": "weak",
+      "rank": 126,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a place for coffee"
+    },
+    "frig": {
+      "clue": "I am not a cooling device",
+      "strength": "weak",
+      "rank": 127,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a cooling device"
+    },
+    "parlor": {
+      "clue": "I am not a room for guests",
+      "strength": "weak",
+      "rank": 128,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a room for guests"
+    },
+    "dinner": {
+      "clue": "I am where this meal is made",
+      "strength": "medium",
+      "rank": 129,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am where this meal is made"
+    },
+    "dishwater": {
+      "clue": "I wash dishes in this",
+      "strength": "medium",
+      "rank": 130,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I wash dishes in this"
+    },
+    "kindergarten": {
+      "clue": "I am not for educating children",
+      "strength": "weak",
+      "rank": 131,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not for educating children"
+    },
+    "housekeep": {
+      "clue": "I am the action, this the result",
+      "strength": "medium",
+      "rank": 132,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am the action, this the result"
+    },
+    "household": {
+      "clue": "I am a part of this",
+      "strength": "medium",
+      "rank": 133,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am a part of this"
+    },
+    "refectory": {
+      "clue": "I am not a dining hall",
+      "strength": "weak",
+      "rank": 134,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a dining hall"
+    },
+    "showroom": {
+      "clue": "I display items, not myself",
+      "strength": "medium",
+      "rank": 135,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I display items, not myself"
+    },
+    "sofa": {
+      "clue": "I am not for seating comfort",
+      "strength": "weak",
+      "rank": 136,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not for seating comfort"
+    },
+    "food": {
+      "clue": "I am stored and cooked with this",
+      "strength": "medium",
+      "rank": 137,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am stored and cooked with this"
+    },
+    "knife": {
+      "clue": "I use this tool for cooking",
+      "strength": "medium",
+      "rank": 138,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I use this tool for cooking"
+    },
+    "icebox": {
+      "clue": "I am not a cooling appliance",
+      "strength": "weak",
+      "rank": 139,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a cooling appliance"
+    },
+    "fireroom": {
+      "clue": "I am not a place for fire",
+      "strength": "weak",
+      "rank": 140,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a place for fire"
+    },
+    "dishpan": {
+      "clue": "I am used to wash this",
+      "strength": "medium",
+      "rank": 141,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am used to wash this"
+    },
+    "darkroom": {
+      "clue": "I am not a place for photos",
+      "strength": "weak",
+      "rank": 142,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a place for photos"
+    },
+    "hob": {
+      "clue": "I am used for cooking on",
+      "strength": "medium",
+      "rank": 143,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am used for cooking on"
+    },
+    "nook": {
+      "clue": "I am not a cozy corner",
+      "strength": "weak",
+      "rank": 144,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a cozy corner"
+    },
+    "office": {
+      "clue": "I am not a place for work",
+      "strength": "weak",
+      "rank": 145,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a place for work"
+    },
+    "schoolroom": {
+      "clue": "I am not a classroom",
+      "strength": "weak",
+      "rank": 146,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a classroom"
+    },
+    "clubhouse": {
+      "clue": "I am not a social gathering place",
+      "strength": "weak",
+      "rank": 147,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a social gathering place"
+    },
+    "dinning": {
+      "clue": "I am not a room for eating",
+      "strength": "weak",
+      "rank": 148,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a room for eating"
+    },
+    "boudoir": {
+      "clue": "I am not a private bedroom",
+      "strength": "weak",
+      "rank": 149,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a private bedroom"
+    },
+    "kennel": {
+      "clue": "I am not for housing animals",
+      "strength": "weak",
+      "rank": 150,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not for housing animals"
+    },
+    "lobby": {
+      "clue": "I am not a waiting area",
+      "strength": "weak",
+      "rank": 151,
+      "cached_at": "2025-09-21T19:00:03.834657+00:00",
+      "violations": [],
+      "original_clue": "I am not a waiting area"
+    }
+  }
+}

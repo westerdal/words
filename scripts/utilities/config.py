@@ -14,7 +14,7 @@ class Config:
     DATA_DIR = ROOT_DIR / "data"
     SECRETWORD_DIR = ROOT_DIR / "secretword" 
     LOGS_DIR = ROOT_DIR / "logs"
-    ENV_DIR = ROOT_DIR / ".env"
+    ENV_DIR = ROOT_DIR / ".venv"
     TEMP_DIR = ROOT_DIR / "temp"
     
     # Word lists
@@ -31,45 +31,51 @@ class Config:
     STATUS_UPDATE_INTERVAL = 30  # Seconds between status updates
     
     # AI Cutoff Settings
-    WEAK_CONNECTION_THRESHOLD = 10  # Stop after N consecutive weak connections
     HARD_CUTOFF_RANK = 5000        # Stop AI calls after this rank (absolute maximum)
-    MIN_AI_CLUES = 2500           # Minimum clues before allowing dynamic cutoff (2500, not 25000)
+    MIN_AI_CLUES = 2500           # Minimum clues to generate with AI
     
     # === AI SETTINGS ===
     OPENAI_MODEL = "gpt-3.5-turbo"
     EMBEDDING_MODEL = "text-embedding-3-large"
     MAX_CLUE_WORDS = 7
     
-    # Recursive Expansion Settings
-    EXPANSION_MAX_LEVELS = 2  # How deep to recurse (back to 2 levels)
-    EXPANSION_MAX_WORDS_PER_LEVEL = 999999  # No limit on words per level
-    EXPANSION_MAX_PER_WORD = 8  # Max expansions per source word
-    EXPANSION_MIN_SIMILARITY = 0.4  # Only expand high-similarity words
-    EXPANSION_BATCH_SIZE = 5  # Words per OpenAI call
+    # Two-Pass Expansion Settings
+    PRIMARY_MIN_WORDS = 300  # Minimum words in first pass
+    SYNONYMS_PER_WORD = 5  # Average synonyms to generate per primary word
     EXPANSION_GENERIC_FILTER = ['thing', 'item', 'stuff', 'object', 'things', 'items']  # Skip these
     
     # === FILE FORMATS ===
     CSV_COLUMNS = ["rank", "secret_word", "word", "clue", "connection_strength"]
     
-    # CSV filename format: secretword-[difficulty]-[category]-[word].csv
+    # CSV filename format: [word]-secret.csv
     @staticmethod
     def get_csv_filename(difficulty, category, word):
-        return f"secretword-{difficulty}-{category}-{word}.csv"
+        return f"{word}-secret.csv"
     
-    # Embeddings filename format: embeddings-[word].txt
+    # Embeddings filename format: [word]-embeddings.txt
     @staticmethod
     def get_embeddings_filename(word):
-        return f"embeddings-{word}.txt"
+        return f"{word}-embeddings.txt"
     
     # Progress filename format: [word]_progress.json
     @staticmethod
     def get_progress_filename(word):
         return Config.LOGS_DIR / f"{word}_progress.json"
     
-    # Queue filename format: [word]_weak_queue.json
+    # Queue filename format: [word]-secret_weak_queue.json
     @staticmethod
     def get_queue_filename(word):
-        return Config.SECRETWORD_DIR / f"secretword-easy-animals-{word}_weak_queue.json"
+        return Config.SECRETWORD_DIR / f"{word}-secret_weak_queue.json"
+    
+    # OpenAI twopass filename format: [word]-openai-twopass.txt
+    @staticmethod
+    def get_openai_twopass_filename(word):
+        return f"{word}-openai-twopass.txt"
+    
+    # Cache filename format: [word]-cache.json
+    @staticmethod
+    def get_cache_filename(word):
+        return f"{word}-cache.json"
     
     # === ENVIRONMENT CHECKS ===
     @staticmethod

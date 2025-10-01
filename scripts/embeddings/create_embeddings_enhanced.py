@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent / "utilities"))
 from config import Config
 from progress_tracker import create_tracker, quick_log
-from openai_similar_words import get_openai_similar_words
+from 020_expand_vocabulary import get_openai_similar_words
 from plural_converter import convert_plurals_to_singular
 from embeddings_merger import create_merged_embeddings
 
@@ -31,8 +31,10 @@ class EnhancedEmbeddingsGenerator(EmbeddingsGenerator):
         """Get OpenAI similar words and process them"""
         quick_log(self.secret_word, f"🤖 Getting OpenAI similar words for '{self.secret_word}'")
         
-        # Get OpenAI words (with caching)
-        self.openai_words = get_openai_similar_words(self.secret_word)
+        # Get OpenAI words (with caching) - use module directly to access update methods
+        from 020_expand_vocabulary import OpenAISimilarWords
+        self.openai_module = OpenAISimilarWords(self.secret_word)
+        self.openai_words = self.openai_module.get_similar_words()
         
         if not self.openai_words:
             quick_log(self.secret_word, "❌ ERROR: No OpenAI words retrieved - cannot create enhanced embeddings")
@@ -48,6 +50,10 @@ class EnhancedEmbeddingsGenerator(EmbeddingsGenerator):
         if not self.processed_openai_words:
             quick_log(self.secret_word, "❌ ERROR: No words remaining after plural conversion and deduplication")
             return False
+        
+        # Update ENABLE2.txt with final processed words (after plural conversion)
+        if hasattr(self, 'openai_module'):
+            self.openai_module.update_enable2_with_final_words(self.processed_openai_words)
         
         quick_log(self.secret_word, f"✅ Processed OpenAI words: {len(self.openai_words)} → {len(self.processed_openai_words)}")
         

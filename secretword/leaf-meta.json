@@ -1,0 +1,12 @@
+{
+  "secret_word": "leaf",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "A leaf is a part of a plant, specifically the thin, flat structure attached to the stem that is responsible for photosynthesis.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: A leaf is a part of a plant, specifically the thin, flat structure attached to the stem that is responsible for photosynthesis."
+  },
+  "generated_timestamp": "2025-09-21T22:43:01.355983Z",
+  "openai_model": "gpt-3.5-turbo"
+}

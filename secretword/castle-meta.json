@@ -1,0 +1,12 @@
+{
+  "secret_word": "castle",
+  "category": "furniture",
+  "openai_classification": {
+    "primary_category": "furniture",
+    "reasoning": "A castle is a large fortified building typically associated with royalty or nobility, and it serves as a residence or stronghold, making it best categorized as furniture in the context of household items.",
+    "confidence": "high",
+    "raw_response": "Category: furniture\nReasoning: A castle is a large fortified building typically associated with royalty or nobility, and it serves as a residence or stronghold, making it best categorized as furniture in the context of household items."
+  },
+  "generated_timestamp": "2025-09-21T22:37:04.391524Z",
+  "openai_model": "gpt-3.5-turbo"
+}

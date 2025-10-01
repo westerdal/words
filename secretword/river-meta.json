@@ -1,0 +1,12 @@
+{
+  "secret_word": "river",
+  "category": "aquatic",
+  "openai_classification": {
+    "primary_category": "aquatic",
+    "reasoning": "Rivers are bodies of water that flow continuously in a channel, making them a type of aquatic feature.",
+    "confidence": "high",
+    "raw_response": "Category: Aquatic\nReasoning: Rivers are bodies of water that flow continuously in a channel, making them a type of aquatic feature."
+  },
+  "generated_timestamp": "2025-09-21T22:45:33.648599Z",
+  "openai_model": "gpt-3.5-turbo"
+}

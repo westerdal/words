@@ -1,0 +1,12 @@
+{
+  "secret_word": "bread",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Bread is a type of prepared food that is commonly consumed as part of meals or snacks.",
+    "confidence": "high",
+    "raw_response": "Category: Food\nReasoning: Bread is a type of prepared food that is commonly consumed as part of meals or snacks."
+  },
+  "generated_timestamp": "2025-09-21T22:36:25.540757Z",
+  "openai_model": "gpt-3.5-turbo"
+}

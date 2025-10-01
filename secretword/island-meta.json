@@ -1,0 +1,12 @@
+{
+  "secret_word": "island",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "An island is a piece of land surrounded by water, typically with vegetation such as trees, shrubs, and other plant life growing on it.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: An island is a piece of land surrounded by water, typically with vegetation such as trees, shrubs, and other plant life growing on it."
+  },
+  "generated_timestamp": "2025-09-21T22:42:16.632137Z",
+  "openai_model": "gpt-3.5-turbo"
+}

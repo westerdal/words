@@ -1,0 +1,12 @@
+{
+  "secret_word": "frog",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Frogs are typically found in the wild and are considered untamed creatures.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Frogs are typically found in the wild and are considered untamed creatures."
+  },
+  "generated_timestamp": "2025-09-21T22:39:44.353315Z",
+  "openai_model": "gpt-3.5-turbo"
+}

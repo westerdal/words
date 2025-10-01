@@ -1,0 +1,12 @@
+{
+  "secret_word": "dog",
+  "category": "domestic",
+  "openai_classification": {
+    "primary_category": "domestic",
+    "reasoning": "Dogs are commonly kept as pets and are considered domestic animals that have been domesticated by humans for companionship and various tasks.",
+    "confidence": "high",
+    "raw_response": "Category: domestic\nReasoning: Dogs are commonly kept as pets and are considered domestic animals that have been domesticated by humans for companionship and various tasks."
+  },
+  "generated_timestamp": "2025-09-21T22:38:24.477869Z",
+  "openai_model": "gpt-3.5-turbo"
+}

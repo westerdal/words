@@ -1,0 +1,12 @@
+{
+  "secret_word": "box",
+  "category": "furniture",
+  "openai_classification": {
+    "primary_category": "furniture",
+    "reasoning": "A box is commonly used as a storage container or as part of furniture, such as a storage box, jewelry box, or a box used for organizing items within a living space.",
+    "confidence": "high",
+    "raw_response": "Category: furniture\nReasoning: A box is commonly used as a storage container or as part of furniture, such as a storage box, jewelry box, or a box used for organizing items within a living space."
+  },
+  "generated_timestamp": "2025-09-21T22:36:21.978743Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "moon",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "The moon is a natural satellite that orbits the Earth and is not a living creature, tool, or object typically found in a kitchen or furniture category.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: The moon is a natural satellite that orbits the Earth and is not a living creature, tool, or object typically found in a kitchen or furniture category."
+  },
+  "generated_timestamp": "2025-09-21T22:44:00.462187Z",
+  "openai_model": "gpt-3.5-turbo"
+}

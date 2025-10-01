@@ -43,27 +43,44 @@ class InteractiveGameMaster:
             return False
         
     def convert_plural_to_singular(self, word: str) -> str:
-        """Convert plural words to singular form"""
+        """Convert plural words to singular form - FIXED to not break singular words ending in 's'"""
         word = word.lower().strip()
         
+        # If the word is already in the dictionary, don't convert it!
+        # This prevents breaking singular words like 'grass', 'class', 'glass', etc.
+        if word in self.dictionary:
+            return word
+        
+        # Only try conversion if the word is NOT in dictionary
         # Common plural patterns
         if word.endswith('ies') and len(word) > 4:
             # flies -> fly, tries -> try
-            return word[:-3] + 'y'
+            candidate = word[:-3] + 'y'
+            if candidate in self.dictionary:
+                return candidate
         elif word.endswith('es') and len(word) > 3:
             # boxes -> box, dishes -> dish
             if word.endswith(('ches', 'shes', 'xes', 'zes')):
-                return word[:-2]
+                candidate = word[:-2]
+                if candidate in self.dictionary:
+                    return candidate
             # heroes -> hero
             elif word.endswith('oes'):
-                return word[:-2]
+                candidate = word[:-2]
+                if candidate in self.dictionary:
+                    return candidate
             # else just remove 's'
             else:
-                return word[:-1]
+                candidate = word[:-1]
+                if candidate in self.dictionary:
+                    return candidate
         elif word.endswith('s') and len(word) > 2:
             # cats -> cat, dogs -> dog
-            return word[:-1]
+            candidate = word[:-1]
+            if candidate in self.dictionary:
+                return candidate
         
+        # If no conversion worked, return original word
         return word
     
     def is_valid_word(self, word: str) -> bool:

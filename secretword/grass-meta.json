@@ -1,0 +1,12 @@
+{
+  "secret_word": "grass",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Grass' is a type of plant, specifically a low-growing green plant with narrow leaves that is commonly found in lawns and fields.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: 'Grass' is a type of plant, specifically a low-growing green plant with narrow leaves that is commonly found in lawns and fields."
+  },
+  "generated_timestamp": "2025-09-21T22:40:03.495284Z",
+  "openai_model": "gpt-3.5-turbo"
+}

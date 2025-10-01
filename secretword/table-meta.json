@@ -1,0 +1,12 @@
+{
+  "secret_word": "table",
+  "category": "furniture",
+  "openai_classification": {
+    "primary_category": "furniture",
+    "reasoning": "A table is a piece of furniture used for various purposes such as dining, working, or displaying items.",
+    "confidence": "high",
+    "raw_response": "Category: furniture\nReasoning: A table is a piece of furniture used for various purposes such as dining, working, or displaying items."
+  },
+  "generated_timestamp": "2025-09-21T22:47:50.856696Z",
+  "openai_model": "gpt-3.5-turbo"
+}

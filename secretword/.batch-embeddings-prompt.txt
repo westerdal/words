@@ -1,0 +1,174 @@
+## **Batch Embeddings Generator for 100 Secret Words**
+
+You are tasked with creating an efficient batch processor to generate semantic embeddings for 100 secret words simultaneously. This approach loads the large embeddings file once and processes all words in memory for maximum efficiency.
+
+### **Context & Performance Goal**
+- `embeddings2.json` is 4.6GB and takes ~7 minutes to load
+- Processing each word takes ~2 minutes once embeddings are in memory
+- Goal: Process 100 secret words in ~207 minutes instead of 700 minutes (3.4x faster!)
+
+### **Input Requirements**
+1. **Secret Words List**: Either from `secretword/master-list.txt` or provided as arguments
+2. **Embeddings File**: `.env/embeddings2.json` (114,103 word embeddings)
+3. **Word List**: `data/enable2.txt` (114,430 words)
+
+### **Output Requirements**
+For each secret word, generate: `secretword/embeddings-[word].txt`
+Format: `rank similarity word` (space-separated, ranked by similarity descending)
+
+### **Technical Implementation**
+
+**Script Name**: `scripts/embeddings/batch_embeddings_generator.py`
+
+**Key Functions Needed**:
+```python
+class BatchEmbeddingsGenerator:
+    def __init__(self):
+        self.embeddings = None
+        self.words = None
+        self.start_time = None
+        self.processed_count = 0
+    
+    def load_resources_once(self):
+        """Load embeddings2.json and enable2.txt once into memory"""
+        # Add time warnings and progress updates
+        # Monitor memory usage during load
+        
+    def process_word(self, secret_word: str) -> List[Tuple[int, float, str]]:
+        """Process single word using in-memory embeddings"""
+        
+    def process_batch(self, secret_words: List[str]):
+        """Process multiple words efficiently with progress tracking"""
+        
+    def save_embeddings_file(self, word: str, rankings: List):
+        """Save individual embeddings-[word].txt file"""
+        
+    def calculate_eta(self, processed: int, total: int) -> str:
+        """Calculate estimated time remaining for large batches"""
+        
+    def memory_check(self):
+        """Monitor memory usage and warn if approaching limits"""
+```
+
+**Performance Features Required**:
+1. **Single Load**: Load `embeddings2.json` only once with progress updates
+2. **Memory Efficiency**: Keep embeddings in memory throughout entire 100-word batch
+3. **Progress Tracking**: Show progress every 10 words with ETA updates
+4. **Checkpointing**: Save each word's results immediately (don't batch saves)
+5. **Error Recovery**: Continue processing other words if one fails
+6. **Time Estimates**: Provide accurate ETAs for remaining words in large batches
+7. **Memory Monitoring**: Track memory usage and warn if approaching system limits
+8. **Interruption Recovery**: Handle Ctrl+C gracefully, show progress made
+
+**Usage Examples**:
+```bash
+# Process next 100 words from master-list.txt  
+python scripts/embeddings/batch_embeddings_generator.py --count 100
+
+# Process specific range of words
+python scripts/embeddings/batch_embeddings_generator.py --start 1 --end 100
+
+# Process all remaining words from master-list.txt
+python scripts/embeddings/batch_embeddings_generator.py --all-remaining
+
+# Resume from specific word (if interrupted)
+python scripts/embeddings/batch_embeddings_generator.py --resume-from horse --count 50
+```
+
+**Expected Output Progress**:
+```
+[21:45:00] 🚀 Starting batch embeddings generation for 100 words
+[21:45:00] 📂 Loading embeddings2.json (4.6 GB)...
+[21:45:00] ⏰ ESTIMATED TIME: 5-10 minutes
+[21:45:00] 💾 Memory usage: 2.1 GB / 16.0 GB available
+[21:52:00] ✅ Loaded 114,103 embeddings
+[21:52:00] 📂 Loaded 114,430 words from ENABLE2
+[21:52:00] 💾 Total memory usage: 6.8 GB / 16.0 GB
+[21:52:00] 🔄 Processing batch: 100 words | ETA: 3h 20m
+
+[21:52:00] ✅ #1/100 | horse | embeddings-horse.txt saved | ETA: 3h 18m
+[21:54:00] ✅ #2/100 | cow | embeddings-cow.txt saved | ETA: 3h 16m
+[21:56:00] ✅ #3/100 | pig | embeddings-pig.txt saved | ETA: 3h 14m
+...
+[21:72:00] 📊 #10/100 | sheep | Progress: 10% complete | ETA: 3h 2m
+...
+[22:32:00] 📊 #25/100 | lion | Progress: 25% complete | ETA: 2h 30m
+...
+[23:12:00] 📊 #50/100 | tree | Progress: 50% complete | ETA: 1h 40m
+...
+[00:32:00] 📊 #75/100 | book | Progress: 75% complete | ETA: 50m
+...
+[01:19:00] 🎉 Batch complete! Processed 100 words in 3h 27m
+[01:19:00] 💰 Time saved: 8h 13m (70% faster than serial processing)
+```
+
+**Critical Requirements for 100-Word Processing**:
+
+1. **Memory Management**:
+   - Monitor memory usage throughout entire batch
+   - Warn if memory usage exceeds 80% of available RAM
+   - Provide clear error if system runs out of memory
+   - Consider memory cleanup between words if needed
+
+2. **Progress & ETA Accuracy**:
+   - Update ETA every 10 words processed
+   - Account for variable processing times per word
+   - Show percentage completion for long batches
+   - Display time elapsed and time remaining
+
+3. **Robust Error Handling**:
+   - Log failed words to `batch_errors.log`
+   - Continue processing remaining words if individual failures occur
+   - Provide summary of successful vs failed processing
+   - Allow resuming from last successful word
+
+4. **Skip Logic**:
+   - Check if `embeddings-[word].txt` already exists before processing
+   - Provide option to overwrite existing files or skip
+   - Show count of skipped vs processed words
+
+5. **Interruption Handling**:
+   - Handle Ctrl+C gracefully without corrupting files
+   - Show progress made before interruption
+   - Provide command to resume from where it left off
+
+6. **Performance Monitoring**:
+   - Track processing speed (words/minute)
+   - Identify slow words and log performance metrics
+   - Report final statistics (total time, avg time per word, etc.)
+
+**Memory Requirements**:
+- Base embeddings2.json: ~6.8 GB in memory
+- Working memory for calculations: ~1-2 GB
+- **Recommended minimum RAM**: 12 GB
+- **Optimal RAM**: 16+ GB
+
+**Batch Size Considerations**:
+- For systems with limited RAM (<12 GB), process in smaller batches of 25-50 words
+- For high-memory systems (32+ GB), can process 200+ words in single batch
+- Monitor memory usage and adjust batch size dynamically
+
+**Expected Performance Gains**:
+- **Serial Processing**: ~700 minutes (7min load × 100 words + 2min process × 100)
+- **Batch Processing**: ~207 minutes (7min load × 1 + 2min process × 100)  
+- **Time Saved**: ~493 minutes (8.2 hours, 70% faster)
+
+**Quality Assurance**:
+- Validate that all 100 output files are created successfully
+- Check file sizes are reasonable (~3MB each)
+- Verify first and last entries in sample files
+- Compare processing time against estimates
+
+**Scalability Notes**:
+- This approach scales linearly: 200 words = ~407 minutes, 500 words = ~1007 minutes
+- Memory usage remains constant regardless of batch size
+- Consider breaking very large batches (500+) into chunks for better progress visibility
+
+### **Implementation Priority**:
+1. **Phase 1**: Create basic batch processor for 10 words (testing)
+2. **Phase 2**: Scale to 100 words with full progress tracking
+3. **Phase 3**: Add advanced features (resume, memory monitoring, performance metrics)
+
+Create this batch processor and demonstrate it works by processing a small test batch first (5-10 words), then scale to the full 100-word batch once stability is confirmed.
+
+

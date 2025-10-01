@@ -1,0 +1,12 @@
+{
+  "secret_word": "pool",
+  "category": "aquatic",
+  "openai_classification": {
+    "primary_category": "aquatic",
+    "reasoning": "A pool is typically a man-made structure filled with water, making it associated with aquatic environments.",
+    "confidence": "high",
+    "raw_response": "Category: aquatic\nReasoning: A pool is typically a man-made structure filled with water, making it associated with aquatic environments."
+  },
+  "generated_timestamp": "2025-09-21T22:45:01.880818Z",
+  "openai_model": "gpt-3.5-turbo"
+}

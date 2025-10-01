@@ -1,0 +1,12 @@
+{
+  "secret_word": "room",
+  "category": "furniture",
+  "openai_classification": {
+    "primary_category": "furniture",
+    "reasoning": "A room is typically associated with being a part of a house or building and is often furnished with items like chairs, tables, and beds.",
+    "confidence": "high",
+    "raw_response": "Category: furniture\nReasoning: A room is typically associated with being a part of a house or building and is often furnished with items like chairs, tables, and beds."
+  },
+  "generated_timestamp": "2025-09-21T22:45:52.538970Z",
+  "openai_model": "gpt-3.5-turbo"
+}

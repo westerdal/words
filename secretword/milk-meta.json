@@ -1,0 +1,12 @@
+{
+  "secret_word": "milk",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Milk is a common food item that is consumed by humans and animals for its nutritional value.",
+    "confidence": "high",
+    "raw_response": "Category: Food\nReasoning: Milk is a common food item that is consumed by humans and animals for its nutritional value."
+  },
+  "generated_timestamp": "2025-09-21T22:43:48.201097Z",
+  "openai_model": "gpt-3.5-turbo"
+}

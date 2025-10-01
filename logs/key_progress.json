@@ -1,0 +1,14 @@
+{
+  "word": "key",
+  "task_name": "CSV_GENERATION",
+  "current_item": 200,
+  "total_items": 114430,
+  "start_time": "2025-09-21T11:57:31.492917",
+  "checkpoint_time": "2025-09-21T11:57:55.917301",
+  "data": {
+    "processed_count": 200,
+    "ai_calls_made": 3,
+    "ai_cutoff_reached": false,
+    "csv_rows": 151
+  }
+}

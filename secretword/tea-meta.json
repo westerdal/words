@@ -1,0 +1,12 @@
+{
+  "secret_word": "tea",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Tea is a beverage made by steeping dried leaves in hot water, commonly consumed as a drink.",
+    "confidence": "high",
+    "raw_response": "Category: food\nReasoning: Tea is a beverage made by steeping dried leaves in hot water, commonly consumed as a drink."
+  },
+  "generated_timestamp": "2025-09-21T22:47:57.820794Z",
+  "openai_model": "gpt-3.5-turbo"
+}

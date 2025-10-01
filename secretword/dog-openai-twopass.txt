@@ -1,0 +1,5 @@
+# Two-pass expansion for 'dog'
+# Total words: 99
+# Generated: 2025-09-21T08:52:02.469926
+
+puppy, canine, hound, mongrel, mutt, pooch, cur, tail, bark, kennel, leash, collar, pet, animal, mammal, domestic, breed, pedigree, terrier, retriever, spaniel, shepherd, poodle, dalmatian, rottweiler, beagle, boxer, dachshund, chihuahua, labrador, husky, mastiff, pitbull, greyhound, corgi, basset, akita, malamute, schnauzer, doberman, pinscher, pomeranian, bichon, frise, cocker, setter, pointer, whippet, bloodhound, lurcher, coonhound, foxhound, wolfhound, pekingese, pug, weimaraner, vizsla, basenji, borzoi, saluki, afghan, komondor, briard, maltese, papillon, spitz, sheltie, collie, newfoundland, bernard, dane, chow, kom, whelp, pup, youngster, juvenile, infant, baby, cub, fido, beast, brute, quadruped, creature, critter, varmint, crossbreed, hybrid, mix, blend, cross, mixbreed, tracker, sleuth, pursuer, chaser, hunter, grey

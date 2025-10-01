@@ -1,0 +1,5 @@
+# Two-pass expansion for 'build'
+# Total words: 106
+# Generated: 2025-09-20T18:54:10.992551
+
+construct, create, erect, establish, form, assemble, develop, fabricate, fashion, forge, manufacture, mold, produce, shape, structure, design, engineer, generate, invent, originate, craft, devise, draft, frame, model, plan, sculpt, carve, cast, concoct, contrive, cultivate, hatch, implement, institute, organize, set, synthesize, actualize, compose, constitute, effect, execute, found, initiate, install, introduce, launch, make, materialize, perform, prepare, realize, render, start, bring, complete, finish, fulfill, inaugurate, accomplish, achieve, material, arrange, configure, evolve, formulate, enact, carryout, conduct, discharge, ready, comprehend, understand, perceive, grasp, apprehend, depict, portray, represent, illustrate, express, commence, embark, convey, deliver, fetch, carry, transport, finalize, conclude, perfect, terminate, end, cease, satisfy, meet, comply, attain, reach, earn, win, substance, matter, fabric, textile

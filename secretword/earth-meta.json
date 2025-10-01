@@ -1,0 +1,12 @@
+{
+  "secret_word": "earth",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Earth' is classified as a plant because it refers to the planet we live on, which is a part of the natural world and includes various forms of flora such as trees, flowers, and other vegetation.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: 'Earth' is classified as a plant because it refers to the planet we live on, which is a part of the natural world and includes various forms of flora such as trees, flowers, and other vegetation."
+  },
+  "generated_timestamp": "2025-09-21T22:38:48.192441Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "snake",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Snakes are typically considered wild animals as they are not domesticated and are commonly found in natural habitats.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Snakes are typically considered wild animals as they are not domesticated and are commonly found in natural habitats."
+  },
+  "generated_timestamp": "2025-09-21T22:46:50.492513Z",
+  "openai_model": "gpt-3.5-turbo"
+}

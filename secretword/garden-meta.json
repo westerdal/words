@@ -1,0 +1,12 @@
+{
+  "secret_word": "garden",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "'Garden' is typically associated with plants such as flowers, trees, and other flora that are cultivated in outdoor spaces.",
+    "confidence": "high",
+    "raw_response": "Category: plant\nReasoning: 'Garden' is typically associated with plants such as flowers, trees, and other flora that are cultivated in outdoor spaces."
+  },
+  "generated_timestamp": "2025-09-21T22:39:52.468402Z",
+  "openai_model": "gpt-3.5-turbo"
+}

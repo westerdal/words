@@ -1,0 +1,12 @@
+{
+  "secret_word": "hat",
+  "category": "clothing",
+  "openai_classification": {
+    "primary_category": "clothing",
+    "reasoning": "A hat is a type of garment or accessory worn on the head, making it best classified under the category of clothing.",
+    "confidence": "high",
+    "raw_response": "Category: clothing\nReasoning: A hat is a type of garment or accessory worn on the head, making it best classified under the category of clothing."
+  },
+  "generated_timestamp": "2025-09-21T22:40:27.284975Z",
+  "openai_model": "gpt-3.5-turbo"
+}

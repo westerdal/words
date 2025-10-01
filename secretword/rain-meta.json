@@ -1,0 +1,12 @@
+{
+  "secret_word": "rain",
+  "category": "weather",
+  "openai_classification": {
+    "primary_category": "weather",
+    "reasoning": "Rain is a weather phenomenon characterized by the falling of water droplets from the sky.",
+    "confidence": "high",
+    "raw_response": "Category: Weather\nReasoning: Rain is a weather phenomenon characterized by the falling of water droplets from the sky."
+  },
+  "generated_timestamp": "2025-09-21T22:45:21.458432Z",
+  "openai_model": "gpt-3.5-turbo"
+}

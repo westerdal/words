@@ -1,0 +1,12 @@
+{
+  "secret_word": "jump",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Jump\" is a concept related to physical movement involving propelling oneself off the ground.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: \"Jump\" is a concept related to physical movement involving propelling oneself off the ground."
+  },
+  "generated_timestamp": "2025-09-21T22:42:34.446164Z",
+  "openai_model": "gpt-3.5-turbo"
+}

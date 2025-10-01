@@ -1,0 +1,12 @@
+{
+  "secret_word": "airport",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "An airport is a physical location where aircraft take off and land, making it an abstract idea related to transportation and travel.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: An airport is a physical location where aircraft take off and land, making it an abstract idea related to transportation and travel."
+  },
+  "generated_timestamp": "2025-09-21T22:35:20.628349Z",
+  "openai_model": "gpt-3.5-turbo"
+}

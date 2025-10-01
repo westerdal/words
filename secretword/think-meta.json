@@ -1,0 +1,12 @@
+{
+  "secret_word": "think",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "\"Think\" is a verb that represents the mental process of considering or pondering ideas, making it best classified under the category of abstract concepts.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: \"Think\" is a verb that represents the mental process of considering or pondering ideas, making it best classified under the category of abstract concepts."
+  },
+  "generated_timestamp": "2025-09-21T22:48:02.680596Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "market",
+  "category": "concept",
+  "openai_classification": {
+    "primary_category": "concept",
+    "reasoning": "'Market' is a concept representing a place where goods and services are bought and sold, rather than fitting into any of the other provided categories.",
+    "confidence": "high",
+    "raw_response": "Category: concept\nReasoning: 'Market' is a concept representing a place where goods and services are bought and sold, rather than fitting into any of the other provided categories."
+  },
+  "generated_timestamp": "2025-09-21T22:43:35.568069Z",
+  "openai_model": "gpt-3.5-turbo"
+}

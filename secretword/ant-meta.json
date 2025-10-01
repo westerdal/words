@@ -1,0 +1,12 @@
+{
+  "secret_word": "ant",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Ants are small insects that are typically found in the wild, living in colonies and foraging for food in natural environments.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Ants are small insects that are typically found in the wild, living in colonies and foraging for food in natural environments."
+  },
+  "generated_timestamp": "2025-09-21T22:35:28.175721Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "orange",
+  "category": "fruit",
+  "openai_classification": {
+    "primary_category": "fruit",
+    "reasoning": "Oranges are a type of fruit that grows on trees and is commonly consumed for its juicy and sweet flavor.",
+    "confidence": "high",
+    "raw_response": "Category: fruit\nReasoning: Oranges are a type of fruit that grows on trees and is commonly consumed for its juicy and sweet flavor."
+  },
+  "generated_timestamp": "2025-09-21T22:44:31.603649Z",
+  "openai_model": "gpt-3.5-turbo"
+}

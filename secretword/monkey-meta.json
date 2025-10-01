@@ -1,0 +1,12 @@
+{
+  "secret_word": "monkey",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Monkeys are typically found in the wild or in zoos, making them a wild animal classification.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Monkeys are typically found in the wild or in zoos, making them a wild animal classification."
+  },
+  "generated_timestamp": "2025-09-21T22:43:56.908629Z",
+  "openai_model": "gpt-3.5-turbo"
+}

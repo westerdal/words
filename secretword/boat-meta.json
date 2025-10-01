@@ -1,0 +1,12 @@
+{
+  "secret_word": "boat",
+  "category": "aquatic",
+  "openai_classification": {
+    "primary_category": "aquatic",
+    "reasoning": "A boat is a watercraft designed for travel or transportation on water, making it best classified as an aquatic item.",
+    "confidence": "high",
+    "raw_response": "Category: Aquatic\nReasoning: A boat is a watercraft designed for travel or transportation on water, making it best classified as an aquatic item."
+  },
+  "generated_timestamp": "2025-09-21T22:36:13.920992Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "hate",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Hate' is an emotion representing a strong feeling of dislike or aversion towards someone or something.",
+    "confidence": "high",
+    "raw_response": "Category: Emotion\nReasoning: 'Hate' is an emotion representing a strong feeling of dislike or aversion towards someone or something."
+  },
+  "generated_timestamp": "2025-09-21T22:40:35.305540Z",
+  "openai_model": "gpt-3.5-turbo"
+}

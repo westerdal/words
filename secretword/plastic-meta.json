@@ -1,0 +1,12 @@
+{
+  "secret_word": "plastic",
+  "category": "default",
+  "openai_classification": {
+    "primary_category": "default",
+    "reasoning": "Invalid category returned: default. Plastic is a type of material used in various applications such as manufacturing, packaging, and construction.",
+    "confidence": "high",
+    "raw_response": "Category: material\nReasoning: Plastic is a type of material used in various applications such as manufacturing, packaging, and construction."
+  },
+  "generated_timestamp": "2025-09-21T22:44:54.722350Z",
+  "openai_model": "gpt-3.5-turbo"
+}

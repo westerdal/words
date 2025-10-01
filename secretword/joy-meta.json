@@ -1,0 +1,12 @@
+{
+  "secret_word": "joy",
+  "category": "emotion",
+  "openai_classification": {
+    "primary_category": "emotion",
+    "reasoning": "'Joy' is an emotion representing a feeling of great pleasure and happiness.",
+    "confidence": "high",
+    "raw_response": "Category: Emotion\nReasoning: 'Joy' is an emotion representing a feeling of great pleasure and happiness."
+  },
+  "generated_timestamp": "2025-09-21T22:42:27.150955Z",
+  "openai_model": "gpt-3.5-turbo"
+}

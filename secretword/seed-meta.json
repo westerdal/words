@@ -1,0 +1,12 @@
+{
+  "secret_word": "seed",
+  "category": "plant",
+  "openai_classification": {
+    "primary_category": "plant",
+    "reasoning": "A seed is the reproductive structure of a plant, containing the embryo from which a new plant can grow.",
+    "confidence": "high",
+    "raw_response": "Category: Plant\nReasoning: A seed is the reproductive structure of a plant, containing the embryo from which a new plant can grow."
+  },
+  "generated_timestamp": "2025-09-21T22:46:16.139366Z",
+  "openai_model": "gpt-3.5-turbo"
+}

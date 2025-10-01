@@ -1,0 +1,12 @@
+{
+  "secret_word": "duck",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Ducks are typically considered wild animals, living in natural habitats such as ponds, lakes, and rivers.",
+    "confidence": "high",
+    "raw_response": "Category: wild\nReasoning: Ducks are typically considered wild animals, living in natural habitats such as ponds, lakes, and rivers."
+  },
+  "generated_timestamp": "2025-09-21T22:38:44.346345Z",
+  "openai_model": "gpt-3.5-turbo"
+}

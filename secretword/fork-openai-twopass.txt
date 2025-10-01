@@ -1,0 +1,5 @@
+# Two-pass expansion for 'fork'
+# Total words: 59
+# Generated: 2025-09-21T02:32:40.222605
+
+spoon, knife, utensil, cutlery, plate, bowl, dish, tableware, silverware, ladle, spatula, whisk, tongs, chopsticks, strainer, grater, peeler, slicer, dicer, masher, server, tong, skimmer, scoop, dipper, blade, cutter, dagger, implement, tool, gadget, flatware, silver, platter, saucer, basin, crockery, dinnerware, turner, flipper, beater, mixer, pincers, clippers, sticks, sieve, colander, shredder, zester, parer, carver, chopper, cuber, pounder, crusher, waiter, attendant, pincer, clipper

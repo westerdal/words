@@ -1,0 +1,12 @@
+{
+  "secret_word": "lion",
+  "category": "wild",
+  "openai_classification": {
+    "primary_category": "wild",
+    "reasoning": "Lions are wild animals that are typically found in natural habitats and are not domesticated.",
+    "confidence": "high",
+    "raw_response": "Category: Wild\nReasoning: Lions are wild animals that are typically found in natural habitats and are not domesticated."
+  },
+  "generated_timestamp": "2025-09-21T22:43:16.408099Z",
+  "openai_model": "gpt-3.5-turbo"
+}

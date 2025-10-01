@@ -1,0 +1,12 @@
+{
+  "secret_word": "storm",
+  "category": "weather",
+  "openai_classification": {
+    "primary_category": "weather",
+    "reasoning": "'Storm' is a weather phenomenon characterized by strong winds, rain, thunder, and lightning.",
+    "confidence": "high",
+    "raw_response": "Category: Weather\nReasoning: 'Storm' is a weather phenomenon characterized by strong winds, rain, thunder, and lightning."
+  },
+  "generated_timestamp": "2025-09-21T22:47:32.517046Z",
+  "openai_model": "gpt-3.5-turbo"
+}

@@ -1,0 +1,12 @@
+{
+  "secret_word": "sun",
+  "category": "weather",
+  "openai_classification": {
+    "primary_category": "weather",
+    "reasoning": "The sun is a key component of weather phenomena and atmospheric conditions, as it provides light and heat to the Earth.",
+    "confidence": "high",
+    "raw_response": "Category: weather\nReasoning: The sun is a key component of weather phenomena and atmospheric conditions, as it provides light and heat to the Earth."
+  },
+  "generated_timestamp": "2025-09-21T22:47:43.401124Z",
+  "openai_model": "gpt-3.5-turbo"
+}

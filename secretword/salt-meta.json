@@ -1,0 +1,12 @@
+{
+  "secret_word": "salt",
+  "category": "food",
+  "openai_classification": {
+    "primary_category": "food",
+    "reasoning": "Salt is commonly used as a seasoning and flavor enhancer in cooking and food preparation.",
+    "confidence": "high",
+    "raw_response": "Category: Food\nReasoning: Salt is commonly used as a seasoning and flavor enhancer in cooking and food preparation."
+  },
+  "generated_timestamp": "2025-09-21T22:46:04.664582Z",
+  "openai_model": "gpt-3.5-turbo"
+}
